@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pages</title>
+  <style>
+    body {
+      font-family: monospace;
+      width: 1519px;
+      font-size: 19px;
+      background-color: #f5f5f5;
+    }
+
+    body, a, a:visited {
+      color: #111;
+    }
+
+    h1, h2 {
+      text-align: center;
+    }
+
+    ol {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .toc {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .toc li {
+      display: inline;
+      padding: 5px;
+    }
+
+    .page {
+      position: relative;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .bboxes li {
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 2px;
+      box-sizing: border-box;
+
+      border-style: dashed;
+      border-color: rgba(0, 0, 0, 0.4);
+      border-width: 1px;
+    }
+
+    .bboxes li.column {
+      background-color: rgba(200, 255, 200, 0.8);
+    }
+
+    svg.lines {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+    }
+
+    .histogram {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .histogram rect {
+      stroke: rgba(0, 130, 247, 0.9);
+      fill: rgba(0, 130, 247, 0.4);
+    }
+
+    .histogram rect.outline {
+      stroke: rgba(0, 0, 0, 0.2);
+      fill: none;
+    }
+
+    .histogram rect.maximum {
+      stroke: rgba(0, 198, 28, 0.9);
+      fill: rgba(0, 198, 28, 0.3);
+    }
+
+  </style>
+</head>
+<body>
+  <div>
+    <h1>Pages</h1>
+    <ol class="toc">
+    {% for page in pages %}
+      <li><a href="#{{ page.page_num + 1 }}">{{ page.page_num + 1 }}</a></li>
+    {% endfor %}
+    </ol>
+  </div>
+  <ol>
+  {% for page in pages %}
+    {% set page_height = page.size[1] %}
+    <li>
+      <h2> <a name="{{ page.page_num + 1 }}">Page {{ page.page_num + 1 }}</a></h2>
+      <div class="page">
+        <img src="{{ page.file }}" />
+        <svg class="histogram">
+        {% for bin in page.histogram %}
+          {% set class = '' %}
+
+          {% if bin.order < 2 %}
+            {% set class = 'maximum' %}
+          {% endif %}
+
+          <rect x="{{ bin.edges[0] }}" y="0" width="{{ bin.edges[1] - bin.edges[0] }}"
+            height="100%" class="outline" />
+          <rect x="{{ bin.edges[0] }}" y="0" width="{{ bin.edges[1] - bin.edges[0] }}"
+            height={{ bin.count * 20 }} class="{{ class }}" />
+        {% endfor %}
+
+        </svg>
+        <ol class="bboxes original">
+          {% for bbox in page.bboxes %}
+            {% set class = '' %}
+
+            {% if bbox.bin_order < 2 %}
+              {% set class = 'column' %}
+            {% endif %}
+
+            <li style="left: {{ bbox.bbox[0] }}px; top: {{ page_height - bbox.bbox[3] }}px; width: {{ bbox.bbox[2] - bbox.bbox[0] }}px; height: {{ bbox.bbox[3] - bbox.bbox[1] }}px;"
+              class="{{ class }}">
+              {{ bbox.text|e }}
+            </li>
+          {% endfor %}
+        </ol>
+
+        <ol class="bboxes hidden corrected">
+          {% for bbox in page.bboxes %}
+            {% if bbox.corrected %}
+              {% set class = '' %}
+
+              {% if bbox.corrected_bin_order < 2 %}
+                {% set class = class + 'column' %}
+              {% endif %}
+
+              {% if bbox.next_bbox is defined %}
+                {% set next_bbox = page.bboxes[bbox.next_bbox] %}
+                {% for _ in range(1, 1000) %}
+                  <li style="left: {{ next_bbox.bbox[0] }}px; top: {{ page_height - next_bbox.bbox[3] }}px; width: {{ next_bbox.bbox[2] - next_bbox.bbox[0] }}px; height: {{ next_bbox.bbox[3] - next_bbox.bbox[1] }}px;">
+                    {{ next_bbox.text|e }}
+                  </li>
+                  {% if not next_bbox.next_bbox is defined %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+
+              <li style="left: {{ bbox.corrected[0] }}px; top: {{ page_height - bbox.corrected[3] }}px; width: {{ bbox.corrected[2] - bbox.corrected[0] }}px; height: {{ bbox.corrected[3] - bbox.corrected[1] }}px;"
+                title="{{ bbox.text|e }}" class="{{ class }}">
+                {{ bbox.text|e }}
+              </li>
+            {% endif %}
+          {% endfor %}
+        </ol>
+
+        <svg class="lines hidden corrected">
+          <defs>
+            <marker id="arrow" markerWidth="20" markerHeight="20" refx="0" refy="3" orient="auto" markerUnits="strokeWidth" viewBox="0 0 20 20">
+              <path d="M0,0 L0,6 L9,3 z" fill="#f00" />
+            </marker>
+          </defs>
+          {% for bbox in page.bboxes %}
+            {% if bbox.corrected %}
+              {% if bbox.next_bbox is defined %}
+                {% set next_bbox = page.bboxes[bbox.next_bbox] %}
+                {% set last_x = bbox.corrected[0] %}
+                {% set last_y = page_height - bbox.corrected[3] %}
+
+                {% set x = next_bbox.bbox[0] %}
+                {% set y = page_height - next_bbox.bbox[3] %}
+
+                {% for _ in range(1, 1000) %}
+                  <line x1="{{ last_x }}" y1="{{ last_y }}"
+                    x2="{{ x }}" y2="{{ y }}"
+                    stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+                  {% set last_x = x %}
+                  {% set last_y = y %}
+
+                  {% if not next_bbox.next_bbox is defined %}
+                    {% break %}
+                  {% endif %}
+                {% endfor %}
+              {% endif %}
+
+            {% endif %}
+          {% endfor %}
+        </svg>
+      </div>
+    </li>
+  {% endfor %}
+  </ol>
+</body>
+<script>
+  var bboxesHidden = 1
+  var histogramHidden = false
+
+  function toggleClass(element, cls, toggled) {
+    if (toggled) {
+      element.classList.add(cls)
+    } else {
+      element.classList.remove(cls)
+    }
+  }
+
+  function toggleClassAll(list, cls, toggled) {
+    for (var element of list) {
+      toggleClass(element, cls, toggled)
+    }
+  }
+
+  document.onkeypress = function(e) {
+    if (e.keyCode === 116) {
+      bboxesHidden = (bboxesHidden + 1) % 3
+
+      var original = document.querySelectorAll('.original')
+      var corrected = document.querySelectorAll('.corrected')
+
+      toggleClassAll(original, 'hidden', bboxesHidden !== 1)
+      toggleClassAll(corrected, 'hidden', bboxesHidden !== 2)
+    } else if (e.keyCode === 104) {
+      histogramHidden = !histogramHidden
+      var histogram = document.querySelectorAll('.histogram')
+      toggleClassAll(histogram, 'hidden', histogramHidden)
+    }
+  };
+</script>
+</html>
