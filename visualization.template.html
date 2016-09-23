@@ -15,8 +15,13 @@
       color: #111;
     }
 
-    h1, h2 {
+    h1, h2, .centered {
       text-align: center;
+    }
+
+    .centered {
+      display: block;
+      padding-bottom: .5em;
     }
 
     ol {
@@ -95,7 +100,10 @@
 </head>
 <body>
   <div>
-    <h1>Pages</h1>
+    <div class="centered">
+      Press <b>t</b> to toggle text boxes and <b>h</b> to toggle column histogram
+    </div>
+    <h1><a name="top">Pages</a></h1>
     <ol class="toc">
     {% for page in pages %}
       <li><a href="#{{ page.page_num + 1 }}">{{ page.page_num + 1 }}</a></li>
@@ -105,12 +113,15 @@
   <ol>
   {% for page in pages %}
     {% set page_height = page.size[1] %}
+    {% set corrected_bboxes = corrected_pages[page.page_num] %}
+    {% set histogram = histograms[page.page_num] %}
     <li>
-      <h2> <a name="{{ page.page_num + 1 }}">Page {{ page.page_num + 1 }}</a></h2>
+      <h2><a name="{{ page.page_num + 1 }}">Page {{ page.page_num + 1 }}</a></h2>
+      <div><a class="centered" href="#top">Back to top</a></div>
       <div class="page">
         <img src="{{ page.file }}" />
         <svg class="histogram">
-        {% for bin in page.histogram %}
+        {% for bin in histogram %}
           {% set class = '' %}
 
           {% if bin.order < 2 %}
@@ -122,13 +133,13 @@
           <rect x="{{ bin.edges[0] }}" y="0" width="{{ bin.edges[1] - bin.edges[0] }}"
             height={{ bin.count * 20 }} class="{{ class }}" />
         {% endfor %}
-
         </svg>
+
         <ol class="bboxes original">
           {% for bbox in page.bboxes %}
             {% set class = '' %}
 
-            {% if bbox.bin_order < 2 %}
+            {% if corrected_bboxes[loop.index0].bin_order < column_count %}
               {% set class = 'column' %}
             {% endif %}
 
@@ -140,16 +151,18 @@
         </ol>
 
         <ol class="bboxes hidden corrected">
-          {% for bbox in page.bboxes %}
-            {% if bbox.corrected %}
+          {% for bbox in corrected_bboxes %}
+            {% if bbox.bbox %}
+
               {% set class = '' %}
 
               {% if bbox.corrected_bin_order < 2 %}
                 {% set class = class + 'column' %}
               {% endif %}
 
-              {% if bbox.next_bbox is defined %}
-                {% set next_bbox = page.bboxes[bbox.next_bbox] %}
+              {% set original_bbox = page.bboxes[loop.index0] %}
+              {% if original_bbox.next_bbox is defined %}
+                {% set next_bbox = page.bboxes[original_bbox.next_bbox] %}
                 {% for _ in range(1, 1000) %}
                   <li style="left: {{ next_bbox.bbox[0] }}px; top: {{ page_height - next_bbox.bbox[3] }}px; width: {{ next_bbox.bbox[2] - next_bbox.bbox[0] }}px; height: {{ next_bbox.bbox[3] - next_bbox.bbox[1] }}px;">
                     {{ next_bbox.text|e }}
@@ -160,7 +173,7 @@
                 {% endfor %}
               {% endif %}
 
-              <li style="left: {{ bbox.corrected[0] }}px; top: {{ page_height - bbox.corrected[3] }}px; width: {{ bbox.corrected[2] - bbox.corrected[0] }}px; height: {{ bbox.corrected[3] - bbox.corrected[1] }}px;"
+              <li style="left: {{ bbox.bbox[0] }}px; top: {{ page_height - bbox.bbox[3] }}px; width: {{ bbox.bbox[2] - bbox.bbox[0] }}px; height: {{ bbox.bbox[3] - bbox.bbox[1] }}px;"
                 title="{{ bbox.text|e }}" class="{{ class }}">
                 {{ bbox.text|e }}
               </li>
@@ -175,11 +188,13 @@
             </marker>
           </defs>
           {% for bbox in page.bboxes %}
-            {% if bbox.corrected %}
+            {% set corrected_bbox = corrected_bboxes[loop.index0] %}
+            {% if corrected_bbox.bbox %}
+
               {% if bbox.next_bbox is defined %}
                 {% set next_bbox = page.bboxes[bbox.next_bbox] %}
-                {% set last_x = bbox.corrected[0] %}
-                {% set last_y = page_height - bbox.corrected[3] %}
+                {% set last_x = corrected_bbox.bbox[0] %}
+                {% set last_y = page_height - corrected_bbox.bbox[3] %}
 
                 {% set x = next_bbox.bbox[0] %}
                 {% set y = page_height - next_bbox.bbox[3] %}
@@ -200,6 +215,7 @@
             {% endif %}
           {% endfor %}
         </svg>
+
       </div>
     </li>
   {% endfor %}
