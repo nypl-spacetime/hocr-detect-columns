@@ -51,7 +51,13 @@ for page in pages:
         if count > bboxes_count * (in_column_bin / column_count):
             detected_column_count += 1
 
-    if detected_column_count == column_count:
+    print('Page {} - {}:'.format(page['page_num'] + 1, page['file']))
+
+    if detected_column_count != column_count:
+        print('  {} {} found - skipping'.format(detected_column_count, 'column' if detected_column_count == 1 else 'columns'))
+    else:
+        print('  Parsing {} bboxes'.format(len(page['bboxes'])))
+
         maxima_indices = hist.argsort()[-column_count:][::-1]
         bin_size = bin_edges[1] - bin_edges[0]
 
@@ -119,7 +125,12 @@ pages = [page for page in pages if 'histogram' in page]
 
 # Read width & height of each page's image
 for page in pages:
-    with Image.open(page['file']) as im:
+    path = page['file']
+
+    if not os.path.isabs(path):
+        path = os.path.abspath(os.path.join(hocr_dir, path))
+
+    with Image.open(path) as im:
         width, height = im.size
         page['size'] = [
             width,
