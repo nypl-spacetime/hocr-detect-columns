@@ -46,6 +46,8 @@ for page in pages:
                 width,
                 height
             ]
+    else:
+        print('Image file not found, cannot make visualization for this page:', path)
 
 
 # TODO: make configurable with command line arg
@@ -176,7 +178,7 @@ with open(os.path.join(hocr_dir, 'lines.txt'), 'w') as lines_file:
     print('\n'.join(get_lines(pages)), file=lines_file)
 
 html = render('visualization.template.html', {
-    'pages': pages,
+    'pages': [page for page in pages if 'size' in page,
     'histograms': histograms,
     'corrected_pages': corrected_pages,
     'column_count': column_count
