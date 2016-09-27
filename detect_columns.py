@@ -124,7 +124,6 @@ for page_idx, page in enumerate(pages):
                         else:
                             dx_pos_far = True
 
-                    # GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER
                     corrected_bbox['corrected_bin_index'] = maxima_indices.tolist()[min_dx_idx]
                     corrected_bbox['corrected_bin_order'] = orders[maxima_indices[min_dx_idx]]
 
@@ -137,13 +136,8 @@ for page_idx, page in enumerate(pages):
                             bbox['bbox'][3]
                         ]
 
-                    # hier corrected_bbox toevoegen!
-                    # GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER
-                    # corrected_bboxes[bbox_idx] = corrected_bbox
-
                     break
 
-            # GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER GUER
             corrected_bbox['text'] = bbox['text']
             corrected_bbox['bin_index'] = x_bin_idx
             corrected_bbox['bin_order'] = orders[x_bin_idx]
@@ -152,7 +146,7 @@ for page_idx, page in enumerate(pages):
         for bbox_idx, bbox in enumerate(page['bboxes']):
             corrected_bbox = corrected_bboxes[bbox_idx]
             if 'bbox' not in corrected_bbox and 'corrected_bin_index' in corrected_bbox:
-                # TODO: add half line height
+                # TODO: add half line height?
                 similar_bboxes = []
                 for bbox_idx2, bbox2 in enumerate(page['bboxes']):
                     corrected_bbox2 = corrected_bboxes[bbox_idx2]
