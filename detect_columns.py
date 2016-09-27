@@ -49,28 +49,39 @@ for page in pages:
     else:
         print('Image file not found, cannot make visualization for this page:', path)
 
-
 # TODO: make configurable with command line arg
 column_count = 2
 in_column_bin = .55
 
+# Empty arrays that will hold histograms and corrected bbox positions,
+# used in html visualization
 histograms = [None] * len(pages)
 corrected_pages = [None] * len(pages)
 
 for page_idx, page in enumerate(pages):
+
+    # Get all bbox data, convert to NumPy array
     np_bboxes = np.asarray([bbox['bbox'] for bbox in page['bboxes']])
+
+    # Get only first X and Y coordinate
     xys = np_bboxes[:,:2]
 
+    # Get min and max X position for all bboxes on page
     min_x = np.amin(np_bboxes[:,:1])
     max_x = np.amax(np_bboxes[:,:1])
 
+    # Compute median bbox height
     heights = [bbox[3] - bbox[1] for bbox in np_bboxes]
-    avg_height = np.median(heights)
+    median_height = np.median(heights)
 
-    bin_count = int((max_x - min_x) / avg_height)
+    # The median line height is good measure for character height
+    # We use this as a guess for how many histogram bins we need
+    bin_count = int((max_x - min_x) / median_height)
 
+    # Compute histogram for x coordinates of bboxes
     hist, bin_edges = np.histogram(xys[:, 0], bin_count)
 
+    # Compute the average amount of bboxes per histogram bin
     avg_per_bin = np.average(hist)
 
     bboxes_count = len(np_bboxes)
@@ -164,6 +175,8 @@ pages = [page for page_idx, page in enumerate(pages) if histograms[page_idx] != 
 
 # Write data to files
 
+# 1. bboxes.json is JSON-ified version of hocr.html, with linked lists of continued
+#    indented lines
 with open(os.path.join(hocr_dir, 'bboxes.json'), 'w') as outfile:
     outfile.write(json.dumps(pages, indent=2, sort_keys=True))
 
