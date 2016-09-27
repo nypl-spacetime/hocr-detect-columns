@@ -2,6 +2,7 @@
 
 import os
 import sys
+import csv
 import json
 import fnmatch
 from pathlib import Path
@@ -116,6 +117,7 @@ for page_idx, page in enumerate(pages):
         corrected_pages[page_idx] = corrected_bboxes
 
         for bbox_idx, bbox in enumerate(page['bboxes']):
+
             x = bbox['bbox'][0]
             x_bin_idx = -1
 
@@ -181,8 +183,11 @@ with open(os.path.join(hocr_dir, 'bboxes.json'), 'w') as outfile:
     outfile.write(json.dumps(pages, indent=2, sort_keys=True))
 
 from get_lines import get_lines
-with open(os.path.join(hocr_dir, 'lines.txt'), 'w') as lines_file:
-    print('\n'.join(get_lines(pages)), file=lines_file)
+with open(os.path.join(hocr_dir, 'lines.csv'), 'w') as csvfile:
+    lines = get_lines(pages)
+    csvwriter = csv.writer(csvfile, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+    csvwriter.writerow(['id', 'text'])
+    csvwriter.writerows(lines)
 
 html = render('visualization.template.html', {
     'pages': [page for page in pages if 'size' in page],

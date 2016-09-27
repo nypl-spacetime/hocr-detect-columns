@@ -36,8 +36,10 @@ class BboxParser(HTMLParser):
 
             if bbox != None:
                 bbox = list(map(int, bbox.split()[1:]))
+                id = '.'.join([str(i) for i in [self.page_num, bbox[0], bbox[1]]])
 
                 self.last_bbox = {
+                    'id': id,
                     'bbox': bbox,
                     'text': ''
                 }
