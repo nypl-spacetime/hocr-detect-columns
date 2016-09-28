@@ -17,7 +17,7 @@ def filter_lines(lines):
         '^[A-Z]' # Must start with capital letter
     ]
 
-    return [[id, line] for id, line in lines if all([re.compile(regexp).match(line) != None for regexp in regexps])]
+    return [line for line in lines if all([re.compile(regexp).match(line['text']) != None for regexp in regexps])]
 
 def get_lines(pages):
     lines = []
@@ -32,6 +32,11 @@ def get_lines(pages):
                         next_bbox = page['bboxes'][next_bbox['next_bbox']]
                         bbox_lines.append(next_bbox['text'])
 
-                lines.append([bbox['id'], join_lines(bbox_lines)])
+                lines.append({
+                    'id': bbox['id'],
+                    'text': join_lines(bbox_lines),
+                    'page_num': page['page_num'],
+                    'bbox': bbox['bbox']
+                })
 
     return filter_lines(lines)

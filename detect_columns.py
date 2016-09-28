@@ -2,7 +2,6 @@
 
 import os
 import sys
-import csv
 import json
 import fnmatch
 from pathlib import Path
@@ -179,15 +178,13 @@ pages = [page for page_idx, page in enumerate(pages) if histograms[page_idx] != 
 
 # 1. bboxes.json is JSON-ified version of hocr.html, with linked lists of continued
 #    indented lines
-with open(os.path.join(hocr_dir, 'bboxes.json'), 'w') as outfile:
-    outfile.write(json.dumps(pages, indent=2, sort_keys=True))
+with open(os.path.join(hocr_dir, 'bboxes.json'), 'w') as bbox_file:
+    bbox_file.write(json.dumps(pages, indent=2, sort_keys=True))
 
 from get_lines import get_lines
-with open(os.path.join(hocr_dir, 'lines.csv'), 'w') as csvfile:
-    lines = get_lines(pages)
-    csvwriter = csv.writer(csvfile, delimiter=';', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-    csvwriter.writerow(['id', 'text'])
-    csvwriter.writerows(lines)
+with open(os.path.join(hocr_dir, 'lines.ndjson'), 'w') as lines_file:
+    for line in get_lines(pages):
+        lines_file.write(json.dumps(line, separators=(',', ':')) + '\n')
 
 html = render('visualization.template.html', {
     'pages': [page for page in pages if 'size' in page],
