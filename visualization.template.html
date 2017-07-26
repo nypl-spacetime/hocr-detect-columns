@@ -6,9 +6,12 @@
   <style>
     body {
       font-family: monospace;
-      width: 1519px;
       font-size: 19px;
       background-color: #f5f5f5;
+      width: 100%;
+      padding: 1em;
+      margin: 0;
+      box-sizing: border-box;
     }
 
     body, a, a:visited {
@@ -49,7 +52,7 @@
       display: none;
     }
 
-    .bboxes li {
+    .lines li {
       position: absolute;
       background-color: rgba(255, 255, 255, 0.8);
       padding: 2px;
@@ -60,11 +63,11 @@
       border-width: 1px;
     }
 
-    .bboxes li.column {
+    .lines li.column {
       background-color: rgba(200, 255, 200, 0.8);
     }
 
-    svg.lines {
+    .connections {
       position: absolute;
       width: 100%;
       height: 100%;
@@ -73,7 +76,17 @@
       pointer-events: none;
     }
 
-    .histogram {
+    .connections line {
+      stroke: #ff4c04;
+      stroke-width: 4;
+      stroke-linecap: round;
+    }
+
+    .connections path {
+      fill: #ff4c04;
+    }
+
+    .columns {
       position: absolute;
       left: 0;
       top: 0;
@@ -81,178 +94,104 @@
       height: 100%;
     }
 
-    .histogram rect {
-      stroke: rgba(0, 130, 247, 0.9);
-      fill: rgba(0, 130, 247, 0.4);
+    .columns rect {
+      stroke: rgba(0, 173, 255, 0.9);
+      fill: rgba(0, 173, 255, 0.3);
     }
-
-    .histogram rect.outline {
-      stroke: rgba(0, 0, 0, 0.2);
-      fill: none;
-    }
-
-    .histogram rect.maximum {
-      stroke: rgba(0, 198, 28, 0.9);
-      fill: rgba(0, 198, 28, 0.3);
-    }
-
   </style>
 </head>
 <body>
-  <div>
+  <header>
+    <h1>hocr-detect-columns</h1>
     <div class="centered">
-      Press <b>t</b> to toggle text boxes and <b>h</b> to toggle column histogram
+      Press <b>b</b> to toggle line boxes, <b>c</b> to toggle columns, and <b>l</b> to toggle line connections
     </div>
-    <h1><a name="top">Pages</a></h1>
+    <h1>Pages</h1>
     <ol class="toc">
-    {% for page in pages %}
-      <li><a href="#{{ page.page_num + 1 }}">{{ page.page_num + 1 }}</a></li>
-    {% endfor %}
+    {{~it.pages :page}}
+      <li><a href="#{{= page.number }}">{{= page.number + 1 }}</a></li>
+    {{~}}
     </ol>
-  </div>
+  </header>
   <ol>
-  {% for page in pages %}
-    {% set page_height = page.size[1] %}
-    {% set corrected_bboxes = corrected_pages[page.page_num] %}
-    {% set histogram = histograms[page.page_num] %}
+  {{~it.pages :page}}
     <li>
-      <h2><a name="{{ page.page_num + 1 }}">Page {{ page.page_num + 1 }}</a></h2>
-      <div><a class="centered" href="#top">Back to top</a></div>
+      <h2><a name="{{= page.number + 1 }}">Page {{= page.number + 1 }}</a></h2>
       <div class="page">
-        <img src="{{ page.file }}" />
-        <svg class="histogram">
-        {% for bin in histogram %}
-          {% set class = '' %}
-
-          {% if bin.order < 2 %}
-            {% set class = 'maximum' %}
-          {% endif %}
-
-          <rect x="{{ bin.edges[0] }}" y="0" width="{{ bin.edges[1] - bin.edges[0] }}"
-            height="100%" class="outline" />
-          <rect x="{{ bin.edges[0] }}" y="0" width="{{ bin.edges[1] - bin.edges[0] }}"
-            height={{ bin.count * 20 }} class="{{ class }}" />
-        {% endfor %}
+        <img src="{{= page.properties.image || page.properties.file || '' }}" />
+        <svg class="columns">
+        {{~page.columns :column}}
+          <rect x="{{= column - it.config.characterWidth }}" y="0" width="{{=2 * it.config.characterWidth}}"
+            height="100%" />
+        {{~}}
         </svg>
 
-        <ol class="bboxes original">
-          {% for bbox in page.bboxes %}
-            {% set class = '' %}
-
-            {% if corrected_bboxes[loop.index0].bin_order < column_count %}
-              {% set class = 'column' %}
-            {% endif %}
-
-            <li style="left: {{ bbox.bbox[0] }}px; top: {{ page_height - bbox.bbox[3] }}px; width: {{ bbox.bbox[2] - bbox.bbox[0] }}px; height: {{ bbox.bbox[3] - bbox.bbox[1] }}px;"
-              class="{{ class }}">
-              {{ bbox.text|e }}
-            </li>
-          {% endfor %}
+        <ol class="lines">
+        {{~page.lines :line}}
+          <li style="left: {{= line.properties.bbox[0] }}px; top: {{= line.properties.bbox[1] }}px; width: {{= line.properties.bbox[2] - line.properties.bbox[0] }}px; height: {{= line.properties.bbox[3] - line.properties.bbox[1] }}px;"
+            class="{{= line.columnIndex !== undefined ? 'column' : '' }}"
+            title="{{= line.completeText ? line.completeText : '' }}" >
+            {{= line.text }}
+          </li>
+        {{~}}
         </ol>
 
-        <ol class="bboxes hidden corrected">
-          {% for bbox in corrected_bboxes %}
-            {% if bbox.bbox %}
-
-              {% set class = '' %}
-
-              {% if bbox.corrected_bin_order < 2 %}
-                {% set class = class + 'column' %}
-              {% endif %}
-
-              {% set original_bbox = page.bboxes[loop.index0] %}
-              {% if original_bbox.next_bbox is defined %}
-                {% set next_bbox = page.bboxes[original_bbox.next_bbox] %}
-                {% for _ in range(1, 1000) %}
-                  <li style="left: {{ next_bbox.bbox[0] }}px; top: {{ page_height - next_bbox.bbox[3] }}px; width: {{ next_bbox.bbox[2] - next_bbox.bbox[0] }}px; height: {{ next_bbox.bbox[3] - next_bbox.bbox[1] }}px;">
-                    {{ next_bbox.text|e }}
-                  </li>
-                  {% if not next_bbox.next_bbox is defined %}
-                    {% break %}
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
-
-              <li style="left: {{ bbox.bbox[0] }}px; top: {{ page_height - bbox.bbox[3] }}px; width: {{ bbox.bbox[2] - bbox.bbox[0] }}px; height: {{ bbox.bbox[3] - bbox.bbox[1] }}px;"
-                title="{{ bbox.text|e }}" class="{{ class }}">
-                {{ bbox.text|e }}
-              </li>
-            {% endif %}
-          {% endfor %}
-        </ol>
-
-        <svg class="lines hidden corrected">
+        <svg class="connections">
           <defs>
-            <marker id="arrow" markerWidth="20" markerHeight="20" refx="0" refy="3" orient="auto" markerUnits="strokeWidth" viewBox="0 0 20 20">
-              <path d="M0,0 L0,6 L9,3 z" fill="#f00" />
+            <marker id="arrow" markerWidth="5" markerHeight="5" refx="6" refy="3" orient="auto" markerUnits="strokeWidth" viewBox="0 0 9 6">
+              <path d="M0,0 L0,6 L9,3 z" />
             </marker>
           </defs>
-          {% for bbox in page.bboxes %}
-            {% set corrected_bbox = corrected_bboxes[loop.index0] %}
-            {% if corrected_bbox.bbox %}
-
-              {% if bbox.next_bbox is defined %}
-                {% set next_bbox = page.bboxes[bbox.next_bbox] %}
-                {% set last_x = corrected_bbox.bbox[0] %}
-                {% set last_y = page_height - corrected_bbox.bbox[3] %}
-
-                {% set x = next_bbox.bbox[0] %}
-                {% set y = page_height - next_bbox.bbox[3] %}
-
-                {% for _ in range(1, 1000) %}
-                  <line x1="{{ last_x }}" y1="{{ last_y }}"
-                    x2="{{ x }}" y2="{{ y }}"
-                    stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
-                  {% set last_x = x %}
-                  {% set last_y = y %}
-
-                  {% if not next_bbox.next_bbox is defined %}
-                    {% break %}
-                  {% endif %}
-                {% endfor %}
-              {% endif %}
-
-            {% endif %}
-          {% endfor %}
+          {{~page.lines :line}}
+            {{? line.nextLineIndex !== undefined }}
+              <line x1="{{= line.properties.bbox[0] }}" y1="{{= line.properties.bbox[3] }}"
+                x2="{{= page.lines[line.nextLineIndex].properties.bbox[0] }}" y2="{{= (page.lines[line.nextLineIndex].properties.bbox[1] + page.lines[line.nextLineIndex].properties.bbox[3]) / 2 }}"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            {{?}}
+          {{~}}
         </svg>
-
       </div>
     </li>
-  {% endfor %}
+  {{~}}
   </ol>
+  <script>
+    var columnsHidden = false
+    var linesHidden = false
+    var connectionsHidden = false
+
+    function toggleClass (element, cls, toggled) {
+      if (toggled) {
+        element.classList.add(cls)
+      } else {
+        element.classList.remove(cls)
+      }
+    }
+
+    function toggleClassAll (list, cls, toggled) {
+      for (var element of list) {
+        toggleClass(element, cls, toggled)
+      }
+    }
+
+    document.addEventListener('keypress', function (event) {
+      if (event.keyCode === 98) {
+        linesHidden = !linesHidden
+        var lines = document.querySelectorAll('.lines')
+        toggleClassAll(lines, 'hidden', linesHidden)
+      } else if (event.keyCode === 99) {
+        columnsHidden = !columnsHidden
+        var columns = document.querySelectorAll('.columns')
+        toggleClassAll(columns, 'hidden', columnsHidden)
+      } else if (event.keyCode === 108) {
+        connectionsHidden = !connectionsHidden
+        var connections = document.querySelectorAll('.connections')
+        toggleClassAll(connections, 'hidden', connectionsHidden)
+      }
+    })
+
+    // TODO:
+    // Use image.onload to get image width + height
+    // https://stackoverflow.com/questions/15989680/auto-width-and-height-for-svg-image
+  </script>
 </body>
-<script>
-  var bboxesHidden = 1
-  var histogramHidden = false
-
-  function toggleClass(element, cls, toggled) {
-    if (toggled) {
-      element.classList.add(cls)
-    } else {
-      element.classList.remove(cls)
-    }
-  }
-
-  function toggleClassAll(list, cls, toggled) {
-    for (var element of list) {
-      toggleClass(element, cls, toggled)
-    }
-  }
-
-  document.onkeypress = function(e) {
-    if (e.keyCode === 116) {
-      bboxesHidden = (bboxesHidden + 1) % 3
-
-      var original = document.querySelectorAll('.original')
-      var corrected = document.querySelectorAll('.corrected')
-
-      toggleClassAll(original, 'hidden', bboxesHidden !== 1)
-      toggleClassAll(corrected, 'hidden', bboxesHidden !== 2)
-    } else if (e.keyCode === 104) {
-      histogramHidden = !histogramHidden
-      var histogram = document.querySelectorAll('.histogram')
-      toggleClassAll(histogram, 'hidden', histogramHidden)
-    }
-  };
-</script>
 </html>

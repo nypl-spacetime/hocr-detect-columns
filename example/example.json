@@ -1,0 +1,3525 @@
+{
+  "config": {
+    "columnCount": 2,
+    "characterWidth": 25,
+    "minLinesPerColumn": 50
+  },
+  "pages": [
+    {
+      "number": 0,
+      "properties": {
+        "image": "https://images.nypl.org/index.php?id=56750887&t=g",
+        "bbox": [
+          0,
+          0,
+          1926,
+          3102
+        ],
+        "ppageno": 0
+      },
+      "lines": [
+        {
+          "properties": {
+            "bbox": [
+              638,
+              108,
+              756,
+              147
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 51.666668,
+            "x_descenders": 12.916667,
+            "x_ascenders": 12.916667
+          },
+          "text": "REN"
+        },
+        {
+          "properties": {
+            "bbox": [
+              331,
+              186,
+              1006,
+              218
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Reintfelter Jacob, tailor, 133 Goerck 1 ,",
+          "columnIndex": 1,
+          "completeText": "Reintfelter Jacob, tailor, 133 Goerck 1 ,"
+        },
+        {
+          "properties": {
+            "bbox": [
+              331,
+              219,
+              995,
+              252
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Reinwald Augustus, shoemaker, 23 Spruce",
+          "columnIndex": 1,
+          "completeText": "Reinwald Augustus, shoemaker, 23 Spruce"
+        },
+        {
+          "properties": {
+            "bbox": [
+              331,
+              252,
+              1042,
+              284
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 7
+          },
+          "text": "Reirdon Robert, porterhouse, 443 Washington",
+          "columnIndex": 1,
+          "completeText": "Reirdon Robert, porterhouse, 443 Washington"
+        },
+        {
+          "properties": {
+            "bbox": [
+              330,
+              285,
+              882,
+              319
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 7
+          },
+          "text": "Reis Anton, painter, 642714 Monroe",
+          "columnIndex": 1,
+          "completeText": "Reis Anton, painter, 642714 Monroe"
+        },
+        {
+          "properties": {
+            "bbox": [
+              330,
+              318,
+              910,
+              349
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Reis John, cabinetmaker, 50 Attorney",
+          "columnIndex": 1,
+          "completeText": "Reis John, cabinetmaker, 50 Attorney"
+        },
+        {
+          "properties": {
+            "bbox": [
+              330,
+              350,
+              839,
+              382
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Reis Lazarus, pedler, r. 60 Ridge",
+          "columnIndex": 1,
+          "completeText": "Reis Lazarus, pedler, r. 60 Ridge"
+        },
+        {
+          "properties": {
+            "bbox": [
+              331,
+              383,
+              823,
+              413
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Reis Lorenz, tailor, r. 161 Third",
+          "columnIndex": 1,
+          "completeText": "Reis Lorenz, tailor, r. 161 Third"
+        },
+        {
+          "properties": {
+            "bbox": [
+              331,
+              415,
+              787,
+              448
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 34,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Reis Simon, clothing, 139 Pitt",
+          "columnIndex": 1,
+          "completeText": "Reis Simon, clothing, 139 Pitt"
+        },
+        {
+          "properties": {
+            "bbox": [
+              331,
+              445,
+              1033,
+              477
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Reisenacker Michael, bootmaker, 115 VVillett",
+          "columnIndex": 1,
+          "completeText": "Reisenacker Michael, bootmaker, 115 VVillett"
+        },
+        {
+          "properties": {
+            "bbox": [
+              331,
+              477,
+              1007,
+              512
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Reisenweber Philip, shoemaker, 101 Willett",
+          "columnIndex": 1,
+          "completeText": "Reisenweber Philip, shoemaker, 101 Willett"
+        },
+        {
+          "properties": {
+            "bbox": [
+              331,
+              510,
+              1119,
+              543
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Reisert Frederick, butcher, 174 Av. A. h. 174 Av. A",
+          "columnIndex": 1,
+          "completeText": "Reisert Frederick, butcher, 174 Av. A. h. 174 Av. A"
+        },
+        {
+          "properties": {
+            "bbox": [
+              331,
+              545,
+              942,
+              578
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Reisky John, fancystore, 657 Broadway",
+          "columnIndex": 1,
+          "completeText": "Reisky John, fancystore, 657 Broadway"
+        },
+        {
+          "properties": {
+            "bbox": [
+              331,
+              578,
+              808,
+              608
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Reiss John, laborer, 57 Cannon",
+          "columnIndex": 1,
+          "completeText": "Reiss John, laborer, 57 Cannon"
+        },
+        {
+          "properties": {
+            "bbox": [
+              331,
+              607,
+              1119,
+              641
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 9
+          },
+          "text": "REISS BROTHERS, & CO. importers, 52 Exchange",
+          "columnIndex": 1,
+          "nextLineIndex": 15,
+          "completeText": "REISS BROTHERS, & CO. importers, 52 Exchange ' place"
+        },
+        {
+          "properties": {
+            "bbox": [
+              371,
+              643,
+              476,
+              675
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "' place",
+          "previousLineIndex": 14
+        },
+        {
+          "properties": {
+            "bbox": [
+              332,
+              671,
+              1055,
+              706
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 9
+          },
+          "text": "Reissenweber Frederick, tinplates, 1 Cortlandt",
+          "columnIndex": 1,
+          "completeText": "Reissenweber Frederick, tinplates, 1 Cortlandt"
+        },
+        {
+          "properties": {
+            "bbox": [
+              331,
+              704,
+              1119,
+              737
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Reissenweber Gottlieb, shoemaker, 17 Orchard, h.",
+          "columnIndex": 1,
+          "nextLineIndex": 18,
+          "completeText": "Reissenweber Gottlieb, shoemaker, 17 Orchard, h. 17 Orchard"
+        },
+        {
+          "properties": {
+            "bbox": [
+              397,
+              740,
+              565,
+              765
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 29.598629,
+            "x_descenders": 5.598628,
+            "x_ascenders": 8
+          },
+          "text": "17 Orchard",
+          "previousLineIndex": 17
+        },
+        {
+          "properties": {
+            "bbox": [
+              332,
+              770,
+              926,
+              804
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Reisheim Henry, importer, 61 William",
+          "columnIndex": 1,
+          "completeText": "Reisheim Henry, importer, 61 William"
+        },
+        {
+          "properties": {
+            "bbox": [
+              332,
+              804,
+              813,
+              834
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Reisz William, tailor, 26 Av. A",
+          "columnIndex": 1,
+          "completeText": "Reisz William, tailor, 26 Av. A"
+        },
+        {
+          "properties": {
+            "bbox": [
+              332,
+              833,
+              1057,
+              869
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Reiter Henry W. bandboxes, 54 Ann, h. 54 Ann",
+          "columnIndex": 1,
+          "completeText": "Reiter Henry W. bandboxes, 54 Ann, h. 54 Ann"
+        },
+        {
+          "properties": {
+            "bbox": [
+              332,
+              868,
+              868,
+              901
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Reither Henry, musician, 25 Av. A",
+          "columnIndex": 1,
+          "completeText": "Reither Henry, musician, 25 Av. A"
+        },
+        {
+          "properties": {
+            "bbox": [
+              333,
+              899,
+              868,
+              934
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 9
+          },
+          "text": "Reitinger John, baker, 166 Walker",
+          "columnIndex": 1,
+          "completeText": "Reitinger John, baker, 166 Walker"
+        },
+        {
+          "properties": {
+            "bbox": [
+              333,
+              932,
+              847,
+              966
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Relling Charles, pedler, 19 Av. A",
+          "columnIndex": 1,
+          "completeText": "Relling Charles, pedler, 19 Av. A"
+        },
+        {
+          "properties": {
+            "bbox": [
+              333,
+              961,
+              1119,
+              999
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Relyea George, independent police, 130 Broadway,",
+          "columnIndex": 1,
+          "nextLineIndex": 26,
+          "completeText": "Relyea George, independent police, 130 Broadway, h. 42 East Broadway"
+        },
+        {
+          "properties": {
+            "bbox": [
+              397,
+              998,
+              715,
+              1029
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "h. 42 East Broadway",
+          "previousLineIndex": 25
+        },
+        {
+          "properties": {
+            "bbox": [
+              333,
+              1027,
+              896,
+              1063
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 9
+          },
+          "text": "Relyea Henry, carpenter, 25 Willett'",
+          "columnIndex": 1,
+          "completeText": "Relyea Henry, carpenter, 25 Willett'"
+        },
+        {
+          "properties": {
+            "bbox": [
+              334,
+              1061,
+              991,
+              1095
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 7
+          },
+          "text": "Relyea Louisa A. dressmaker, 169 Bowery",
+          "columnIndex": 1,
+          "completeText": "Relyea Louisa A. dressmaker, 169 Bowery"
+        },
+        {
+          "properties": {
+            "bbox": [
+              334,
+              1090,
+              1082,
+              1127
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 6,
+            "x_ascenders": 9
+          },
+          "text": "Relyea Peter, undertaker, 3 Willett, h. 2 Willett",
+          "columnIndex": 1,
+          "completeText": "Relyea Peter, undertaker, 3 Willett, h. 2 Willett"
+        },
+        {
+          "properties": {
+            "bbox": [
+              334,
+              1125,
+              960,
+              1157
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Remer Jonathan, shoemaker, 125 Cannon",
+          "columnIndex": 1,
+          "completeText": "Remer Jonathan, shoemaker, 125 Cannon"
+        },
+        {
+          "properties": {
+            "bbox": [
+              334,
+              1155,
+              1063,
+              1193
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Reminger John, fish, 543 Grand, h. 365 Madison",
+          "columnIndex": 1,
+          "completeText": "Reminger John, fish, 543 Grand, h. 365 Madison"
+        },
+        {
+          "properties": {
+            "bbox": [
+              335,
+              1188,
+              1120,
+              1225
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Remington Charles W. cashier, 92 Broad, h. 186",
+          "columnIndex": 1,
+          "nextLineIndex": 33,
+          "completeText": "Remington Charles W. cashier, 92 Broad, h. 186 Chrystie"
+        },
+        {
+          "properties": {
+            "bbox": [
+              398,
+              1225,
+              528,
+              1256
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Chrystie",
+          "previousLineIndex": 32
+        },
+        {
+          "properties": {
+            "bbox": [
+              335,
+              1253,
+              1077,
+              1289
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Remington James F. A. cabinetmaker, 176 Av. 8",
+          "columnIndex": 1,
+          "completeText": "Remington James F. A. cabinetmaker, 176 Av. 8"
+        },
+        {
+          "properties": {
+            "bbox": [
+              335,
+              1285,
+              1120,
+              1321
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Remington Joseph, pickles, 191 Chrystie, h. 1904",
+          "columnIndex": 1,
+          "nextLineIndex": 36,
+          "completeText": "Remington Joseph, pickles, 191 Chrystie, h. 1904 Chrystie"
+        },
+        {
+          "properties": {
+            "bbox": [
+              399,
+              1321,
+              528,
+              1353
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Chrystie",
+          "previousLineIndex": 35
+        },
+        {
+          "properties": {
+            "bbox": [
+              334,
+              1350,
+              953,
+              1385
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Remington Stephen, (Rev) 186 Chrystie",
+          "columnIndex": 1,
+          "completeText": "Remington Stephen, (Rev) 186 Chrystie"
+        },
+        {
+          "properties": {
+            "bbox": [
+              335,
+              1382,
+              928,
+              1418
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Remington & Co. pickles, 191 Chrystie",
+          "columnIndex": 1,
+          "completeText": "Remington & Co. pickles, 191 Chrystie"
+        },
+        {
+          "properties": {
+            "bbox": [
+              335,
+              1413,
+              1121,
+              1450
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 34,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Remmey Charles H. engraver, 210 Chatham, h. r.",
+          "columnIndex": 1,
+          "nextLineIndex": 40,
+          "completeText": "Remmey Charles H. engraver, 210 Chatham, h. r. 263 Madison"
+        },
+        {
+          "properties": {
+            "bbox": [
+              398,
+              1450,
+              584,
+              1482
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 9,
+            "x_ascenders": 7
+          },
+          "text": "263 Madison",
+          "previousLineIndex": 39
+        },
+        {
+          "properties": {
+            "bbox": [
+              335,
+              1478,
+              993,
+              1513
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Remmey Christopher, bootmaker, 317 Fifth",
+          "columnIndex": 1,
+          "completeText": "Remmey Christopher, bootmaker, 317 Fifth"
+        },
+        {
+          "properties": {
+            "bbox": [
+              335,
+              1510,
+              1122,
+              1546
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Remmey John F. turner, 92 Fulton, h. 50 Hamersley",
+          "columnIndex": 1,
+          "completeText": "Remmey John F. turner, 92 Fulton, h. 50 Hamersley"
+        },
+        {
+          "properties": {
+            "bbox": [
+              335,
+              1543,
+              1069,
+              1578
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Remmey William, jeweller, 83 Duane, h. Jersey",
+          "columnIndex": 1,
+          "completeText": "Remmey William, jeweller, 83 Duane, h. Jersey"
+        },
+        {
+          "properties": {
+            "bbox": [
+              335,
+              1578,
+              870,
+              1608
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Remote Louis, shoes, 107 Attorney",
+          "columnIndex": 1,
+          "completeText": "Remote Louis, shoes, 107 Attorney"
+        },
+        {
+          "properties": {
+            "bbox": [
+              336,
+              1610,
+              897,
+              1640
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Remsen Abraham, cooper, 152 Perry",
+          "columnIndex": 1,
+          "completeText": "Remsen Abraham, cooper, 152 Perry"
+        },
+        {
+          "properties": {
+            "bbox": [
+              335,
+              1640,
+              1123,
+              1673
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Remsen Daniel D. drygds. 271 Grand, 11. 383 Broome",
+          "columnIndex": 1,
+          "completeText": "Remsen Daniel D. drygds. 271 Grand, 11. 383 Broome"
+        },
+        {
+          "properties": {
+            "bbox": [
+              335,
+              1673,
+              948,
+              1707
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Remsen George, bootmaker, 103 Clinton",
+          "columnIndex": 1,
+          "completeText": "Remsen George, bootmaker, 103 Clinton"
+        },
+        {
+          "properties": {
+            "bbox": [
+              335,
+              1704,
+              1122,
+              1738
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Remsen Henry R. lawyer, 74 Broadway, h. Av. 5 c.",
+          "columnIndex": 1,
+          "nextLineIndex": 49,
+          "completeText": "Remsen Henry R. lawyer, 74 Broadway, h. Av. 5 c. W. 11th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              400,
+              1738,
+              520,
+              1764
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 27.026707,
+            "x_descenders": 5.0267062,
+            "x_ascenders": 6.7675571
+          },
+          "text": "W. 11th",
+          "previousLineIndex": 48
+        },
+        {
+          "properties": {
+            "bbox": [
+              336,
+              1769,
+              946,
+              1801
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 7
+          },
+          "text": "Remsen James, bootmaker, 174 Delaney",
+          "columnIndex": 1,
+          "completeText": "Remsen James, bootmaker, 174 Delaney"
+        },
+        {
+          "properties": {
+            "bbox": [
+              336,
+              1802,
+              932,
+              1833
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 34,
+            "x_descenders": 8,
+            "x_ascenders": 9
+          },
+          "text": "Remsen John, carman, 116 Christopher",
+          "columnIndex": 1,
+          "completeText": "Remsen John, carman, 116 Christopher"
+        },
+        {
+          "properties": {
+            "bbox": [
+              336,
+              1833,
+              1032,
+              1863
+            ],
+            "baseline": [
+              0,
+              -3
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Remsen John I. milkman, h. W. 30111 11. Av. 8",
+          "columnIndex": 1,
+          "completeText": "Remsen John I. milkman, h. W. 30111 11. Av. 8"
+        },
+        {
+          "properties": {
+            "bbox": [
+              336,
+              1865,
+              1123,
+              1898
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Remsen John C. provisions, 568 Washington, 11. 577",
+          "columnIndex": 1,
+          "nextLineIndex": 54,
+          "completeText": "Remsen John C. provisions, 568 Washington, 11. 577 Washington"
+        },
+        {
+          "properties": {
+            "bbox": [
+              401,
+              1900,
+              590,
+              1931
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 31,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Washington",
+          "previousLineIndex": 53
+        },
+        {
+          "properties": {
+            "bbox": [
+              336,
+              1930,
+              1123,
+              1963
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Remsen Rebecca J. fancygoods, 157 Houston, h.",
+          "columnIndex": 1,
+          "nextLineIndex": 56,
+          "completeText": "Remsen Rebecca J. fancygoods, 157 Houston, h. 157 Houston"
+        },
+        {
+          "properties": {
+            "bbox": [
+              401,
+              1964,
+              585,
+              1988
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 29.333334,
+            "x_descenders": 5.3333335,
+            "x_ascenders": 8
+          },
+          "text": "157 Houston",
+          "previousLineIndex": 55
+        },
+        {
+          "properties": {
+            "bbox": [
+              336,
+              1994,
+              1123,
+              2027
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Remsen Robert G. physician, 74 Broadway, h. Av.",
+          "columnIndex": 1,
+          "nextLineIndex": 58,
+          "completeText": "Remsen Robert G. physician, 74 Broadway, h. Av. 5 n. W. 18th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              401,
+              2028,
+              587,
+              2053
+            ],
+            "baseline": [
+              0,
+              -1
+            ],
+            "x_size": 29.647058,
+            "x_descenders": 5.647059,
+            "x_ascenders": 8
+          },
+          "text": "5 n. W. 18th",
+          "previousLineIndex": 57
+        },
+        {
+          "properties": {
+            "bbox": [
+              336,
+              2058,
+              1123,
+              2091
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Remsen William, lawyer, 74 Broadway, h. 26 W3.-",
+          "columnIndex": 1,
+          "nextLineIndex": 60,
+          "completeText": "Remsen William, lawyer, 74 Broadway, h. 26 W3.verley place"
+        },
+        {
+          "properties": {
+            "bbox": [
+              400,
+              2092,
+              590,
+              2124
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "verley place",
+          "previousLineIndex": 59
+        },
+        {
+          "properties": {
+            "bbox": [
+              336,
+              2122,
+              1005,
+              2154
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 9
+          },
+          "text": "Remsken 1..., cutler, - Elm, h. 155 Grand",
+          "columnIndex": 1,
+          "completeText": "Remsken 1..., cutler, - Elm, h. 155 Grand"
+        },
+        {
+          "properties": {
+            "bbox": [
+              336,
+              2155,
+              1124,
+              2186
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Remson Peter A. 'tailor, 167 Broadway, bds. Rath-",
+          "columnIndex": 1,
+          "nextLineIndex": 63,
+          "completeText": "Remson Peter A. 'tailor, 167 Broadway, bds. Rathbun1s hotel"
+        },
+        {
+          "properties": {
+            "bbox": [
+              400,
+              2188,
+              570,
+              2213
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 33.5,
+            "x_descenders": 8.5,
+            "x_ascenders": 8
+          },
+          "text": "bun1s hotel",
+          "previousLineIndex": 62
+        },
+        {
+          "properties": {
+            "bbox": [
+              337,
+              2221,
+              787,
+              2253
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Remy de St. teacher, 97 Troy",
+          "columnIndex": 1,
+          "completeText": "Remy de St. teacher, 97 Troy"
+        },
+        {
+          "properties": {
+            "bbox": [
+              338,
+              2250,
+              1123,
+              2285
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 34,
+            "x_descenders": 8,
+            "x_ascenders": 9
+          },
+          "text": "Remy Peter, lookingglass, 21 N eW, h. 15 Columbia,",
+          "columnIndex": 1,
+          "nextLineIndex": 66,
+          "completeText": "Remy Peter, lookingglass, 21 N eW, h. 15 Columbia, Brooklyn"
+        },
+        {
+          "properties": {
+            "bbox": [
+              401,
+              2287,
+              531,
+              2316
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 29,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Brooklyn",
+          "previousLineIndex": 65
+        },
+        {
+          "properties": {
+            "bbox": [
+              338,
+              2316,
+              786,
+              2347
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Renall W. 1. hotel, 56 E. 14th",
+          "columnIndex": 1,
+          "completeText": "Renall W. 1. hotel, 56 E. 14th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              339,
+              2348,
+              1061,
+              2381
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Renard J ules, mer. 116 Pearl, h. New Brighton",
+          "columnIndex": 1,
+          "completeText": "Renard J ules, mer. 116 Pearl, h. New Brighton"
+        },
+        {
+          "properties": {
+            "bbox": [
+              339,
+              2380,
+              932,
+              2410
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "RENARD & CO. merchants, 116 Pearl",
+          "columnIndex": 1,
+          "completeText": "RENARD & CO. merchants, 116 Pearl"
+        },
+        {
+          "properties": {
+            "bbox": [
+              338,
+              2413,
+              1094,
+              2442
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Renaud Ann J . widow of Charles, h. 348 Hudson",
+          "columnIndex": 1,
+          "completeText": "Renaud Ann J . widow of Charles, h. 348 Hudson"
+        },
+        {
+          "properties": {
+            "bbox": [
+              339,
+              2442,
+              1125,
+              2478
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 33,
+            "x_descenders": 6,
+            "x_ascenders": 10
+          },
+          "text": "Renauld Peter A. H. importer, 21 Beaver, h. 269",
+          "columnIndex": 1,
+          "nextLineIndex": 72,
+          "completeText": "Renauld Peter A. H. importer, 21 Beaver, h. 269 State, Brooklyn"
+        },
+        {
+          "properties": {
+            "bbox": [
+              403,
+              2478,
+              626,
+              2509
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 30,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "State, Brooklyn",
+          "previousLineIndex": 71
+        },
+        {
+          "properties": {
+            "bbox": [
+              338,
+              2510,
+              1091,
+              2541
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "RENAULD & FRANCOIS, importers, 21 Beaver",
+          "columnIndex": 1,
+          "completeText": "RENAULD & FRANCOIS, importers, 21 Beaver"
+        },
+        {
+          "properties": {
+            "bbox": [
+              338,
+              2541,
+              961,
+              2575
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 34,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Renault J oseph, engineer, h. 84 Vandam",
+          "columnIndex": 1,
+          "completeText": "Renault J oseph, engineer, h. 84 Vandam"
+        },
+        {
+          "properties": {
+            "bbox": [
+              339,
+              2574,
+              898,
+              2607
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Rend Matthias, laborer, 117 Delaney",
+          "columnIndex": 1,
+          "completeText": "Rend Matthias, laborer, 117 Delaney"
+        },
+        {
+          "properties": {
+            "bbox": [
+              338,
+              2604,
+              1125,
+              2638
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 34,
+            "x_descenders": 7,
+            "x_ascenders": 10
+          },
+          "text": "Rendell John, goldpens, 2 Maiden lane, h. Brooklyn",
+          "columnIndex": 1,
+          "completeText": "Rendell John, goldpens, 2 Maiden lane, h. Brooklyn"
+        },
+        {
+          "properties": {
+            "bbox": [
+              339,
+              2638,
+              1125,
+              2670
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 29.160713,
+            "x_descenders": 6.1607141,
+            "x_ascenders": 8.625
+          },
+          "text": "RENFREW ROBERT, importer of shawls & Brit-",
+          "columnIndex": 1,
+          "nextLineIndex": 78,
+          "completeText": "RENFREW ROBERT, importer of shawls & British drygoods, 24 Pine"
+        },
+        {
+          "properties": {
+            "bbox": [
+              402,
+              2670,
+              740,
+              2703
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "ish drygoods, 24 Pine",
+          "previousLineIndex": 77
+        },
+        {
+          "properties": {
+            "bbox": [
+              338,
+              2703,
+              730,
+              2736
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Rengier J ohn J . 557 Pearl",
+          "columnIndex": 1,
+          "completeText": "Rengier J ohn J . 557 Pearl"
+        },
+        {
+          "properties": {
+            "bbox": [
+              339,
+              2735,
+              1076,
+              2773
+            ],
+            "baseline": [
+              0,
+              -12
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Rengle Davidk butcher, 511 Grand, h. 511 Grand",
+          "columnIndex": 1,
+          "completeText": "Rengle Davidk butcher, 511 Grand, h. 511 Grand"
+        },
+        {
+          "properties": {
+            "bbox": [
+              338,
+              2767,
+              965,
+              2797
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Renick Franms, laborer, W. 33d n. Av. 8",
+          "columnIndex": 1,
+          "completeText": "Renick Franms, laborer, W. 33d n. Av. 8"
+        },
+        {
+          "properties": {
+            "bbox": [
+              338,
+              2799,
+              931,
+              2830
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Renihan Patrick, carman, h. 38 Second",
+          "columnIndex": 1,
+          "completeText": "Renihan Patrick, carman, h. 38 Second"
+        },
+        {
+          "properties": {
+            "bbox": [
+              338,
+              2831,
+              921,
+              2861
+            ],
+            "baseline": [
+              0,
+              -3
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Renihan Terence. mason, 178 W. 18th",
+          "columnIndex": 1,
+          "completeText": "Renihan Terence. mason, 178 W. 18th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              338,
+              2865,
+              827,
+              2894
+            ],
+            "baseline": [
+              0,
+              -3
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Renne John Z. baker,1 353 Av. 8",
+          "columnIndex": 1,
+          "completeText": "Renne John Z. baker,1 353 Av. 8"
+        },
+        {
+          "properties": {
+            "bbox": [
+              339,
+              2896,
+              1124,
+              2931
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 32,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Renae Thomas W. printer, 45 Gold, 11. 229 E. B.Way",
+          "columnIndex": 1,
+          "completeText": "Renae Thomas W. printer, 45 Gold, 11. 229 E. B.Way"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1083,
+              95,
+              1545,
+              164
+            ],
+            "baseline": [
+              0,
+              -20
+            ],
+            "x_size": 59,
+            "x_descenders": 10,
+            "x_ascenders": 15
+          },
+          "text": "6418 \" REU"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1069,
+              185,
+              1760,
+              221
+            ],
+            "baseline": [
+              0,
+              -16
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": ", Renner Henry, laborer, W. 38th n. Av. 9 &"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1148,
+              218,
+              1729,
+              252
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Rennert John 0.111. 29th n. Madison Av",
+          "columnIndex": 0,
+          "completeText": "Rennert John 0.111. 29th n. Madison Av"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1148,
+              250,
+              1872,
+              288
+            ],
+            "baseline": [
+              0,
+              -15
+            ],
+            "x_size": 30,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Renngy Angelme, purse, h. 157 Madison - 1",
+          "columnIndex": 0,
+          "completeText": "Renngy Angelme, purse, h. 157 Madison - 1"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1149,
+              283,
+              1886,
+              321
+            ],
+            "baseline": [
+              0,
+              -17
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Renme James. bleacher, 13 Cedar, h. 1 W. 12121114,",
+          "columnIndex": 0,
+          "completeText": "Renme James. bleacher, 13 Cedar, h. 1 W. 12121114,"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1149,
+              314,
+              1924,
+              356
+            ],
+            "baseline": [
+              0,
+              -19
+            ],
+            "x_size": 35,
+            "x_descenders": 5,
+            "x_ascenders": 12
+          },
+          "text": "Rennie Petergtinisher, Av. 8 n. W.' 33d, 11. Av. 8 na\" 1",
+          "columnIndex": 0,
+          "nextLineIndex": 92,
+          "completeText": "Rennie Petergtinisher, Av. 8 n. W.' 33d, 11. Av. 8 na\" 1 W. 33d , ."
+        },
+        {
+          "properties": {
+            "bbox": [
+              1214,
+              347,
+              1742,
+              379
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 27.445545,
+            "x_descenders": 5.4455447,
+            "x_ascenders": 6.7524753
+          },
+          "text": "W. 33d , .",
+          "previousLineIndex": 91
+        },
+        {
+          "properties": {
+            "bbox": [
+              1149,
+              379,
+              1778,
+              414
+            ],
+            "baseline": [
+              0,
+              -12
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Rennie Robert, calicoprimer, 14 Cedar 11.",
+          "columnIndex": 0,
+          "nextLineIndex": 96,
+          "completeText": "Rennie Robert, calicoprimer, 14 Cedar 11. Jersey"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1160,
+              407,
+              1740,
+              445
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 7
+          },
+          "text": "tenode Hiram. carpenter, 53 Clinton ,",
+          "columnIndex": 0,
+          "completeText": "tenode Hiram. carpenter, 53 Clinton ,"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1148,
+              445,
+              1733,
+              478
+            ],
+            "baseline": [
+              0,
+              -11
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Renaud Benjamin, cooper,. 116 Clinton",
+          "columnIndex": 0,
+          "completeText": "Renaud Benjamin, cooper,. 116 Clinton"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1790,
+              385,
+              1882,
+              425
+            ],
+            "baseline": [
+              0,
+              -11
+            ],
+            "x_size": 33,
+            "x_descenders": 10,
+            "x_ascenders": 6
+          },
+          "text": "Jersey",
+          "previousLineIndex": 93
+        },
+        {
+          "properties": {
+            "bbox": [
+              1148,
+              466,
+              1918,
+              523
+            ],
+            "baseline": [
+              0,
+              -23
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Renoud David, painter, 338 Bowery, 11. 338110wery11",
+          "columnIndex": 0,
+          "completeText": "Renoud David, painter, 338 Bowery, 11. 338110wery11"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1148,
+              509,
+              1718,
+              542
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Renoud Hopson, carpenter, 11 Goerck",
+          "columnIndex": 0,
+          "completeText": "Renoud Hopson, carpenter, 11 Goerck"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1148,
+              542,
+              1875,
+              583
+            ],
+            "baseline": [
+              0,
+              -19
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 9
+          },
+          "text": "Renoud Jane, widow Of Frederick, 58 Rivington",
+          "columnIndex": 0,
+          "completeText": "Renoud Jane, widow Of Frederick, 58 Rivington"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1148,
+              569,
+              1920,
+              610
+            ],
+            "baseline": [
+              0,
+              -13
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Renshaw Geo. japanner, 44 Fulton, 11. Williamsbur H,",
+          "columnIndex": 0,
+          "completeText": "Renshaw Geo. japanner, 44 Fulton, 11. Williamsbur H,"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1148,
+              595,
+              1901,
+              646
+            ],
+            "baseline": [
+              0,
+              -17
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Renshaw James B. millinery goods, 36 John. 15.5",
+          "columnIndex": 0,
+          "nextLineIndex": 102,
+          "completeText": "Renshaw James B. millinery goods, 36 John. 15.5 345 Broadway"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1212,
+              639,
+              1428,
+              671
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "345 Broadway",
+          "previousLineIndex": 101
+        },
+        {
+          "properties": {
+            "bbox": [
+              1148,
+              670,
+              1762,
+              706
+            ],
+            "baseline": [
+              0,
+              -12
+            ],
+            "x_size": 29,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "Rensler Buckbee, carman, 2431 Division",
+          "columnIndex": 0,
+          "completeText": "Rensler Buckbee, carman, 2431 Division"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1149,
+              702,
+              1768,
+              733
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30.137234,
+            "x_descenders": 5.1372342,
+            "x_ascenders": 9
+          },
+          "text": "Benton Alexander D1 162 E. 36th 11, Av. 3",
+          "columnIndex": 0,
+          "completeText": "Benton Alexander D1 162 E. 36th 11, Av. 3"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1148,
+              736,
+              1655,
+              765
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 7
+          },
+          "text": "Benton J ames, tailor, 104 Bedford",
+          "columnIndex": 0,
+          "completeText": "Benton J ames, tailor, 104 Bedford"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1149,
+              767,
+              1901,
+              804
+            ],
+            "baseline": [
+              0,
+              -13
+            ],
+            "x_size": 29,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "Rentzel Conrad, shoemaker, 266 Vy'alker, h, 266",
+          "columnIndex": 0,
+          "nextLineIndex": 107,
+          "completeText": "Rentzel Conrad, shoemaker, 266 Vy'alker, h, 266 Walker '"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1214,
+              800,
+              1530,
+              824
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 29.779152,
+            "x_descenders": 5.7791519,
+            "x_ascenders": 7
+          },
+          "text": "Walker '",
+          "previousLineIndex": 106
+        },
+        {
+          "properties": {
+            "bbox": [
+              1148,
+              832,
+              1759,
+              863
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Renville Isaac, stables, h. r. 36 Downinrr",
+          "columnIndex": 0,
+          "completeText": "Renville Isaac, stables, h. r. 36 Downinrr"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1149,
+              857,
+              1900,
+              898
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 29,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "Renville Thomas N. H. stables, 34 CaFmine 11.63",
+          "columnIndex": 0,
+          "nextLineIndex": 110,
+          "completeText": "Renville Thomas N. H. stables, 34 CaFmine 11.63 Carmine I"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1212,
+              890,
+              1824,
+              921
+            ],
+            "baseline": [
+              0,
+              -1
+            ],
+            "x_size": 29.439201,
+            "x_descenders": 5.4392018,
+            "x_ascenders": 8
+          },
+          "text": "Carmine I",
+          "previousLineIndex": 109
+        },
+        {
+          "properties": {
+            "bbox": [
+              1149,
+              928,
+              1778,
+              965
+            ],
+            "baseline": [
+              0,
+              -13
+            ],
+            "x_size": 34,
+            "x_descenders": 9,
+            "x_ascenders": 9
+          },
+          "text": "Renville William, Silversmith, 287 Spring",
+          "columnIndex": 0,
+          "completeText": "Renville William, Silversmith, 287 Spring"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1149,
+              962,
+              1901,
+              995
+            ],
+            "baseline": [
+              0,
+              -11
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "RENVILLE WILLIS J. accountant & teacher of",
+          "columnIndex": 0,
+          "nextLineIndex": 113,
+          "completeText": "RENVILLE WILLIS J. accountant & teacher of bookkeeping, 289 Broadway, h. 27 W. 11th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1213,
+              993,
+              1847,
+              1026
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "bookkeeping, 289 Broadway, h. 27 W. 11th",
+          "previousLineIndex": 112
+        },
+        {
+          "properties": {
+            "bbox": [
+              1149,
+              1026,
+              1811,
+              1061
+            ],
+            "baseline": [
+              0,
+              -12
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Renwick James, professor, 2 College green v",
+          "columnIndex": 0,
+          "completeText": "Renwick James, professor, 2 College green v"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1150,
+              1057,
+              1839,
+              1094
+            ],
+            "baseline": [
+              0,
+              -12
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Renwick James jr. architect. 2 College green",
+          "columnIndex": 0,
+          "completeText": "Renwick James jr. architect. 2 College green"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1149,
+              1090,
+              1847,
+              1127
+            ],
+            "baseline": [
+              0,
+              -13
+            ],
+            "x_size": 34,
+            "x_descenders": 10,
+            "x_ascenders": 7
+          },
+          "text": "Renwick Jane, widow of William, 31 Barclay",
+          "columnIndex": 0,
+          "completeText": "Renwick Jane, widow of William, 31 Barclay"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1149,
+              1122,
+              1741,
+              1155
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Renwick John, traveller, 122 Amity &",
+          "columnIndex": 0,
+          "completeText": "Renwick John, traveller, 122 Amity &"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1149,
+              1154,
+              1911,
+              1188
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Renwick William R. com. mer. 163 Front, 11. 8111'. V",
+          "columnIndex": 0,
+          "nextLineIndex": 119,
+          "completeText": "Renwick William R. com. mer. 163 Front, 11. 8111'. V 18th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1216,
+              1188,
+              1275,
+              1211
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 30.628937,
+            "x_descenders": 7.6289368,
+            "x_ascenders": 7
+          },
+          "text": "18th",
+          "previousLineIndex": 118
+        },
+        {
+          "properties": {
+            "bbox": [
+              1149,
+              1218,
+              1832,
+              1250
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 9
+          },
+          "text": "Renz Francis A. blacksmith, r. 120 William ,",
+          "columnIndex": 0,
+          "completeText": "Renz Francis A. blacksmith, r. 120 William ,"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1150,
+              1252,
+              1690,
+              1283
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Renz Joseph, stonecutter 350 Av. 8",
+          "columnIndex": 0,
+          "completeText": "Renz Joseph, stonecutter 350 Av. 8"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1150,
+              1282,
+              1681,
+              1317
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 31,
+            "x_descenders": 5,
+            "x_ascenders": 9
+          },
+          "text": "Reois Anthony, tailor, 129 Delaney",
+          "columnIndex": 0,
+          "completeText": "Reois Anthony, tailor, 129 Delaney"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1150,
+              1316,
+              1733,
+              1348
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Repper Frederick, liquor, 196 Houston",
+          "columnIndex": 0,
+          "completeText": "Repper Frederick, liquor, 196 Houston"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1150,
+              1348,
+              1743,
+              1380
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Repphahn Frederic M. barber, 80 Av. 8",
+          "columnIndex": 0,
+          "completeText": "Repphahn Frederic M. barber, 80 Av. 8"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1150,
+              1378,
+              1726,
+              1412
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Reppir William, liquors, h. 17 Clinton",
+          "columnIndex": 0,
+          "completeText": "Reppir William, liquors, h. 17 Clinton"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1150,
+              1410,
+              1897,
+              1446
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Repsher David, poulteEer, Washington market, 1L",
+          "columnIndex": 0,
+          "nextLineIndex": 127,
+          "completeText": "Repsher David, poulteEer, Washington market, 1L 9 Dominick"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1215,
+              1445,
+              1391,
+              1469
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 30.945015,
+            "x_descenders": 6.9450145,
+            "x_ascenders": 7
+          },
+          "text": "9 Dominick",
+          "previousLineIndex": 126
+        },
+        {
+          "properties": {
+            "bbox": [
+              1151,
+              1474,
+              1888,
+              1512
+            ],
+            "baseline": [
+              0,
+              -11
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Requa Abram, editor, 9 Spruce, h. 77 E. Broadway",
+          "columnIndex": 0,
+          "completeText": "Requa Abram, editor, 9 Spruce, h. 77 E. Broadway"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1152,
+              1509,
+              1899,
+              1541
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Requa Austin, housesmith, 221 Canal, h. 221 Varick",
+          "columnIndex": 0,
+          "completeText": "Requa Austin, housesmith, 221 Canal, h. 221 Varick"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1152,
+              1542,
+              1730,
+              1574
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "Requa Edwin, carman, 11 Christopher",
+          "columnIndex": 0,
+          "completeText": "Requa Edwin, carman, 11 Christopher"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1152,
+              1573,
+              1779,
+              1607
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Requa Ellen, widow of James, 249 Spring",
+          "columnIndex": 0,
+          "completeText": "Requa Ellen, widow of James, 249 Spring"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1152,
+              1605,
+              1676,
+              1638
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Requa Lewis B. clerk, 146 Clinton",
+          "columnIndex": 0,
+          "completeText": "Requa Lewis B. clerk, 146 Clinton"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1152,
+              1639,
+              1909,
+              1670
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Requa Jacob L. 34 Rose . ,",
+          "columnIndex": 0,
+          "completeText": "Requa Jacob L. 34 Rose . ,"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1152,
+              1669,
+              1896,
+              1702
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 34,
+            "x_descenders": 8,
+            "x_ascenders": 10
+          },
+          "text": "Requa John P. housesmith, 221 Canal, 11.120 Varick",
+          "columnIndex": 0,
+          "completeText": "Requa John P. housesmith, 221 Canal, 11.120 Varick"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1152,
+              1703,
+              1903,
+              1734
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Requa Lewis Z. 34 Rose ' .",
+          "columnIndex": 0,
+          "completeText": "Requa Lewis Z. 34 Rose ' ."
+        },
+        {
+          "properties": {
+            "bbox": [
+              1152,
+              1733,
+              1854,
+              1767
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 29,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "Requa A. & J. P, housesmiths, 221 & 223 Canal '",
+          "columnIndex": 0,
+          "completeText": "Requa A. & J. P, housesmiths, 221 & 223 Canal '"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1153,
+              1767,
+              1768,
+              1799
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Reque Nathaniel M. carman, .175 W. 18th",
+          "columnIndex": 0,
+          "completeText": "Reque Nathaniel M. carman, .175 W. 18th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1152,
+              1799,
+              1792,
+              1831
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Rerman George, shoemaker, r. 290 Second",
+          "columnIndex": 0,
+          "completeText": "Rerman George, shoemaker, r. 290 Second"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1152,
+              1830,
+              1739,
+              1864
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 34,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Resch Charles, law agent, 122 William",
+          "columnIndex": 0,
+          "completeText": "Resch Charles, law agent, 122 William"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1152,
+              1863,
+              1820,
+              1895
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Resch Francis F. segars, 30 Av. 4, 11. 30 Av.4",
+          "columnIndex": 0,
+          "completeText": "Resch Francis F. segars, 30 Av. 4, 11. 30 Av.4"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1152,
+              1895,
+              1703,
+              1926
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Rese John, bookbinder, 53 Elizabeth",
+          "columnIndex": 0,
+          "completeText": "Rese John, bookbinder, 53 Elizabeth"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1153,
+              1927,
+              1867,
+              1960
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Resh Henry, liquors, 110 Centre,-h. 110 Centre .",
+          "columnIndex": 0,
+          "completeText": "Resh Henry, liquors, 110 Centre,-h. 110 Centre ."
+        },
+        {
+          "properties": {
+            "bbox": [
+              1153,
+              1958,
+              1882,
+              1993
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Resegiue John S. preserver, 12 Day, 11.197 Greene",
+          "columnIndex": 0,
+          "completeText": "Resegiue John S. preserver, 12 Day, 11.197 Greene"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1153,
+              1991,
+              1767,
+              2023
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 33,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Resler David, butcher, 118 Delaney '",
+          "columnIndex": 0,
+          "completeText": "Resler David, butcher, 118 Delaney '"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1153,
+              2024,
+              1685,
+              2056
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "Restell C. physician, 162 Chambers",
+          "columnIndex": 0,
+          "completeText": "Restell C. physician, 162 Chambers"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2055,
+              1777,
+              2087
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 30,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Reston Cornelius, carpenter, 159 E. 2181i \"",
+          "columnIndex": 0,
+          "completeText": "Reston Cornelius, carpenter, 159 E. 2181i \""
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2088,
+              1763,
+              2118
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Reszler John, chairmaker. r. 196 W. 2151",
+          "columnIndex": 0,
+          "completeText": "Reszler John, chairmaker. r. 196 W. 2151"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1153,
+              2119,
+              1900,
+              2152
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 9
+          },
+          "text": "Retan John, carpenter, 156 Franklin 1",
+          "columnIndex": 0,
+          "completeText": "Retan John, carpenter, 156 Franklin 1"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1153,
+              2147,
+              1893,
+              2184
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 32,
+            "x_descenders": 6,
+            "x_ascenders": 9
+          },
+          "text": "Retio'en J ames, tailor, 22 West Broadway, 11.111-",
+          "columnIndex": 0,
+          "nextLineIndex": 150,
+          "completeText": "Retio'en J ames, tailor, 22 West Broadway, 11.111fantic 0. Columbia, Brooklyn"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1217,
+              2174,
+              1645,
+              2215
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "fantic 0. Columbia, Brooklyn",
+          "previousLineIndex": 149
+        },
+        {
+          "properties": {
+            "bbox": [
+              1153,
+              2210,
+              1899,
+              2250
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 32,
+            "x_descenders": 6,
+            "x_ascenders": 9
+          },
+          "text": "Reton Mary, Widow of Thomas, variety, 61 M01511,",
+          "columnIndex": 0,
+          "nextLineIndex": 152,
+          "completeText": "Reton Mary, Widow of Thomas, variety, 61 M01511, 61 Mott -"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1218,
+              2252,
+              1868,
+              2275
+            ],
+            "baseline": [
+              0,
+              -1
+            ],
+            "x_size": 29.945015,
+            "x_descenders": 6.9450145,
+            "x_ascenders": 6
+          },
+          "text": "61 Mott -",
+          "previousLineIndex": 151
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2280,
+              1766,
+              2312
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Reton William, shoemaker. 168 Attorney",
+          "columnIndex": 0,
+          "completeText": "Reton William, shoemaker. 168 Attorney"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2311,
+              1717,
+              2347
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Rettberg Carl, shoemaker, 18 Ludlow",
+          "columnIndex": 0,
+          "completeText": "Rettberg Carl, shoemaker, 18 Ludlow"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2344,
+              1895,
+              2379
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Rettberg Christiaanootmaker, 17 Essex , .,",
+          "columnIndex": 0,
+          "completeText": "Rettberg Christiaanootmaker, 17 Essex , .,"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2372,
+              1893,
+              2412
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 31,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Rettberg Henry, grocer, 154 Stanton, h. 154 Stanton",
+          "columnIndex": 0,
+          "completeText": "Rettberg Henry, grocer, 154 Stanton, h. 154 Stanton"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2402,
+              1892,
+              2444
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 34,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Rettburg Ernest J. grocer, W. 30th 0. Av. 8, 11. W",
+          "columnIndex": 0,
+          "nextLineIndex": 158,
+          "completeText": "Rettburg Ernest J. grocer, W. 30th 0. Av. 8, 11. W 30th 0. Av. S 1"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1218,
+              2444,
+              1450,
+              2469
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 30.945015,
+            "x_descenders": 6.9450145,
+            "x_ascenders": 7
+          },
+          "text": "30th 0. Av. S 1",
+          "previousLineIndex": 157
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2469,
+              1842,
+              2506
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 29,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "Better Daniel L. police, h. r. 131 W. Broadway",
+          "columnIndex": 0,
+          "completeText": "Better Daniel L. police, h. r. 131 W. Broadway"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2504,
+              1758,
+              2542
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 34,
+            "x_descenders": 9,
+            "x_ascenders": 9
+          },
+          "text": "Rettig Henry, hotel, 252 W illiam . .",
+          "columnIndex": 0,
+          "completeText": "Rettig Henry, hotel, 252 W illiam . ."
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2534,
+              1838,
+              2574
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Rettinger Christopher, butcher, 238 Rumgton",
+          "columnIndex": 0,
+          "completeText": "Rettinger Christopher, butcher, 238 Rumgton"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2571,
+              1670,
+              2604
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Rettmer Peter, grocer, 312 Monroe",
+          "columnIndex": 0,
+          "completeText": "Rettmer Peter, grocer, 312 Monroe"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2600,
+              1696,
+              2635
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Retts Ann, widow of John, 37 Allen",
+          "columnIndex": 0,
+          "completeText": "Retts Ann, widow of John, 37 Allen"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2632,
+              1690,
+              2668
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "Retzbach Joseph, tailor, 77 Ludlow",
+          "columnIndex": 0,
+          "completeText": "Retzbach Joseph, tailor, 77 Ludlow"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2662,
+              1770,
+              2698
+            ],
+            "baseline": [
+              0,
+              -1
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Reuck William H. teacher, 11. 52 Ludlow-",
+          "columnIndex": 0,
+          "completeText": "Reuck William H. teacher, 11. 52 Ludlow-"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2687,
+              1892,
+              2730
+            ],
+            "baseline": [
+              0,
+              -1
+            ],
+            "x_size": 34,
+            "x_descenders": 8,
+            "x_ascenders": 9
+          },
+          "text": "Reumann Clauls H. grocer, 255 Washmgton, h.",
+          "columnIndex": 0,
+          "nextLineIndex": 167,
+          "completeText": "Reumann Clauls H. grocer, 255 Washmgton, h. 255 Washington . , ' ."
+        },
+        {
+          "properties": {
+            "bbox": [
+              1217,
+              2734,
+              1810,
+              2764
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 30,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "255 Washington . , ' .",
+          "previousLineIndex": 166
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2754,
+              1892,
+              2793
+            ],
+            "baseline": [
+              0,
+              1
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Renter Gustavus, thread & needles, 105 Rlvmgtonx",
+          "columnIndex": 0,
+          "completeText": "Renter Gustavus, thread & needles, 105 Rlvmgtonx"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2791,
+              1751,
+              2829
+            ],
+            "baseline": [
+              0,
+              -3
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Renter Henry, musician, 166 Second .",
+          "columnIndex": 0,
+          "completeText": "Renter Henry, musician, 166 Second ."
+        },
+        {
+          "properties": {
+            "bbox": [
+              1154,
+              2822,
+              1898,
+              2862
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Reutlinger Lipman. shoemaker, 207 Houston . ,",
+          "columnIndex": 0,
+          "completeText": "Reutlinger Lipman. shoemaker, 207 Houston . ,"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1153,
+              2847,
+              1893,
+              2895
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Reutlingery Lino & P-auhne, dressmakers, 269 Div",
+          "columnIndex": 0,
+          "nextLineIndex": 174,
+          "completeText": "Reutlingery Lino & P-auhne, dressmakers, 269 Div V"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1217,
+              2896,
+              1572,
+              2922
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 30.342857,
+            "x_descenders": 5.3428574,
+            "x_ascenders": 8
+          },
+          "text": "vision , *",
+          "previousLineIndex": 171
+        },
+        {
+          "properties": {
+            "bbox": [
+              1902,
+              2947,
+              1906,
+              2956
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 21.333334,
+            "x_descenders": 5.3333335,
+            "x_ascenders": 5.3333335
+          },
+          "text": "9",
+          "previousLineIndex": 171
+        },
+        {
+          "properties": {
+            "bbox": [
+              1903,
+              2957,
+              1912,
+              2972
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 21.333334,
+            "x_descenders": 5.3333335,
+            "x_ascenders": 5.3333335
+          },
+          "text": "V",
+          "previousLineIndex": 171
+        }
+      ],
+      "columns": [
+        1154,
+        331
+      ],
+      "linesPerColumn": [
+        72,
+        70
+      ],
+      "minLinesPerColumn": true
+    }
+  ]
+}
