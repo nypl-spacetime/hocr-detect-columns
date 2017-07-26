@@ -12,7 +12,7 @@ First, hocr-detect-columns uses [Cheerio](https://github.com/cheeriojs/cheerio) 
 
 Per page, the X positions of the bounding boxes of all OCR lines are clustered, using [Simple Statistics](https://simplestatistics.org/). A page with `n` columns should have many lines with bounding boxes on or around `n` different X values. If clustering finds `n` clusters containing most of the OCR lines, we can expect the page has `n` columns.
 
-To connect indented lines with the previous line they belong to, hocr-detect-columns uses a spatial index and tries to find, for each line which doesn't belong to a column, the closest line in the upper-left direction. The algorithms we need are implemented by[RBush](https://github.com/mourner/rbush) (spatial index) and [rbush-knn](https://github.com/mourner/rbush-knn) (nearest neighbor search). You can read more about on spatial search algorithms for JavaScript on [Mapbox's blog](https://blog.mapbox.com/a-dive-into-spatial-search-algorithms-ebd0c5e39d2a).
+To connect indented lines with the previous line they belong to, hocr-detect-columns uses a spatial index and tries to find, for each line which doesn't belong to a column, the closest line in the upper-left direction. The algorithms we need are implemented by [RBush](https://github.com/mourner/rbush) (spatial index) and [rbush-knn](https://github.com/mourner/rbush-knn) (nearest neighbor search). You can read more about on spatial search algorithms for JavaScript on [Mapbox's blog](https://blog.mapbox.com/a-dive-into-spatial-search-algorithms-ebd0c5e39d2a).
 
 ## Installation & Usage
 
@@ -24,19 +24,27 @@ hocr-detect-columns can produce the following output formats:
 
 - Log to stdout (default):
 
-    hocr-detect-columns /path/to/file.hocr
+```
+hocr-detect-columns /path/to/file.hocr
+```
 
 - Output JSON:
 
-    hocr-detect-columns --mode json /path/to/file.hocr
+```
+hocr-detect-columns --mode json /path/to/file.hocr
+```
 
 - Output NDJSON:
 
-    hocr-detect-columns --mode ndjson /path/to/file.hocr
+```
+hocr-detect-columns --mode ndjson /path/to/file.hocr
+```
 
 - Output HTML visualization:
 
-    hocr-detect-columns --mode html /path/to/file.hocr
+```
+hocr-detect-columns --mode html /path/to/file.hocr
+```
 
 ### As a Node.js module
 
@@ -48,7 +56,21 @@ const detectColumns = require('hocr-detect-columns')
 
 const hocr = fs.readFileSync('/path/to/file.hocr', 'utf8')
 
-const pages = detectColumns(hocr)
+const config = {}
+
+const pages = detectColumns(hocr, config)
+```
+
+## Configuration
+
+You can configure hocr-detect-columns by supplying a JSON configuration object or file:
+
+```js
+{
+  "columnCount": 2, // Amount of expected columns
+  "characterWidth": 25, // Width of character, in pixels
+  "minLinesPerColumn": 50 // Minimum expected lines, per column
+}
 ```
 
 ## Example
