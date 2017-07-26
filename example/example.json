@@ -1,0 +1,3527 @@
+{
+  "config": {
+    "columnCount": 2,
+    "characterWidth": 25,
+    "minLinesPerColumn": 50
+  },
+  "pages": [
+    {
+      "number": 0,
+      "properties": {
+        "image": "https://images.nypl.org/index.php?id=56750774&t=g",
+        "bbox": [
+          0,
+          0,
+          1975,
+          2994
+        ],
+        "ppageno": 0
+      },
+      "lines": [
+        {
+          "properties": {
+            "bbox": [
+              291,
+              84,
+              498,
+              152
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 68.428574,
+            "x_descenders": 5.4285717,
+            "x_ascenders": 25
+          },
+          "text": "' TLUDV, 5'"
+        },
+        {
+          "properties": {
+            "bbox": [
+              24,
+              182,
+              649,
+              216
+            ],
+            "baseline": [
+              0,
+              -11
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Loyd Lester, daguerreotypes, 270 Grand",
+          "columnIndex": 1,
+          "completeText": "Loyd Lester, daguerreotypes, 270 Grand"
+        },
+        {
+          "properties": {
+            "bbox": [
+              4,
+              214,
+              590,
+              250
+            ],
+            "baseline": [
+              0,
+              -13
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "' Loyd Thomas, grainer, r. 13 Forsyth",
+          "columnIndex": 1,
+          "completeText": "' Loyd Thomas, grainer, r. 13 Forsyth"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              246,
+              505,
+              279
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Loysel 4-, boarding, 70 Church",
+          "columnIndex": 1,
+          "completeText": "Loysel 4-, boarding, 70 Church"
+        },
+        {
+          "properties": {
+            "bbox": [
+              24,
+              278,
+              807,
+              313
+            ],
+            "baseline": [
+              0,
+              -11
+            ],
+            "x_size": 29,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "Lozier Ann, widow of Garret, milliner, 446 Hudson",
+          "columnIndex": 1,
+          "completeText": "Lozier Ann, widow of Garret, milliner, 446 Hudson"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              310,
+              805,
+              367
+            ],
+            "baseline": [
+              0,
+              -31
+            ],
+            "x_size": 31.730366,
+            "x_descenders": 6.7303667,
+            "x_ascenders": 8
+          },
+          "text": "LoziEr Charles, butcher, 16 Clinton market, h. 153",
+          "columnIndex": 1,
+          "nextLineIndex": 6,
+          "completeText": "LoziEr Charles, butcher, 16 Clinton market, h. 153 . eroy '"
+        },
+        {
+          "properties": {
+            "bbox": [
+              86,
+              349,
+              580,
+              373
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 32.438362,
+            "x_descenders": 6.8602619,
+            "x_ascenders": 8.25
+          },
+          "text": ". eroy '",
+          "previousLineIndex": 5
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              374,
+              808,
+              409
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 32,
+            "x_descenders": 6,
+            "x_ascenders": 9
+          },
+          "text": "Lozier Charles H. butcher, Clinton market, 11. 164",
+          "columnIndex": 1,
+          "nextLineIndex": 8,
+          "completeText": "Lozier Charles H. butcher, Clinton market, 11. 164 Christopher"
+        },
+        {
+          "properties": {
+            "bbox": [
+              88,
+              407,
+              269,
+              438
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Christopher",
+          "previousLineIndex": 7
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              439,
+              647,
+              471
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Lozier Cornelius, carman, 100 Hammond",
+          "columnIndex": 1,
+          "completeText": "Lozier Cornelius, carman, 100 Hammond"
+        },
+        {
+          "properties": {
+            "bbox": [
+              5,
+              471,
+              615,
+              507
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": ", Lozier Edward W. dentist, 28.2 Spring",
+          "columnIndex": 1,
+          "completeText": ", Lozier Edward W. dentist, 28.2 Spring"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              502,
+              575,
+              535
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 30,
+            "x_descenders": 4,
+            "x_ascenders": 9
+          },
+          "text": "Lozier Elizabeth, nurse, 164 E. 27th",
+          "columnIndex": 1,
+          "completeText": "Lozier Elizabeth, nurse, 164 E. 27th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              24,
+              535,
+              522,
+              567
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Lozier John, builder, 128 E. 30th",
+          "columnIndex": 1,
+          "completeText": "Lozier John, builder, 128 E. 30th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              567,
+              722,
+              600
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Lozier Phebe, widow of Nicholas, 278 Spring",
+          "columnIndex": 1,
+          "completeText": "Lozier Phebe, widow of Nicholas, 278 Spring"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              599,
+              674,
+              655
+            ],
+            "baseline": [
+              0,
+              -32
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Lozier Steghem carman, 21 W. Broadway",
+          "columnIndex": 1,
+          "completeText": "Lozier Steghem carman, 21 W. Broadway"
+        },
+        {
+          "properties": {
+            "bbox": [
+              24,
+              631,
+              682,
+              664
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Lozier Wi liam, boilermaker, h. 303 Spring",
+          "columnIndex": 1,
+          "completeText": "Lozier Wi liam, boilermaker, h. 303 Spring"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              664,
+              660,
+              696
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Lozier William, picture frames, 10 Watts",
+          "columnIndex": 1,
+          "completeText": "Lozier William, picture frames, 10 Watts"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              696,
+              617,
+              728
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Lubberger David, shoemaker, 17 Av. 9",
+          "columnIndex": 1,
+          "completeText": "Lubberger David, shoemaker, 17 Av. 9"
+        },
+        {
+          "properties": {
+            "bbox": [
+              24,
+              728,
+              570,
+              759
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Lubbert Edward, refiner, 28 Hubert",
+          "columnIndex": 1,
+          "completeText": "Lubbert Edward, refiner, 28 Hubert"
+        },
+        {
+          "properties": {
+            "bbox": [
+              8,
+              760,
+              616,
+              792
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "' Lubbock Henry, machinist, 4 Bethune",
+          "columnIndex": 1,
+          "completeText": "' Lubbock Henry, machinist, 4 Bethune"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              792,
+              609,
+              826
+            ],
+            "baseline": [
+              0,
+              -11
+            ],
+            "x_size": 33,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Lubbock Henry S. engineer, 195 Av. 3",
+          "columnIndex": 1,
+          "completeText": "Lubbock Henry S. engineer, 195 Av. 3"
+        },
+        {
+          "properties": {
+            "bbox": [
+              24,
+              824,
+              587,
+              855
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Lubby William, laborer, 10 Caroline",
+          "columnIndex": 1,
+          "completeText": "Lubby William, laborer, 10 Caroline"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              855,
+              471,
+              888
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Lubliner Simon, 259 Delaney",
+          "columnIndex": 1,
+          "completeText": "Lubliner Simon, 259 Delaney"
+        },
+        {
+          "properties": {
+            "bbox": [
+              24,
+              887,
+              609,
+              921
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 33,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Lubman Henry, carpenter, 383g- Grand",
+          "columnIndex": 1,
+          "completeText": "Lubman Henry, carpenter, 383g- Grand"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              916,
+              803,
+              976
+            ],
+            "baseline": [
+              0,
+              -32
+            ],
+            "x_size": 35,
+            "x_descenders": 10,
+            "x_ascenders": 8
+          },
+          "text": "LubiHerlzry & Co. porterhouse, 24 Coenties 51. h. 3",
+          "columnIndex": 1,
+          "completeText": "LubiHerlzry & Co. porterhouse, 24 Coenties 51. h. 3"
+        },
+        {
+          "properties": {
+            "bbox": [
+              41,
+              958,
+              159,
+              976
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 32.438362,
+            "x_descenders": 6.8602619,
+            "x_ascenders": 8.25
+          },
+          "text": "' ear",
+          "columnIndex": 1,
+          "completeText": "' ear"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              983,
+              537,
+              1015
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "LubyJames, butcher, 153 E. 27th",
+          "columnIndex": 1,
+          "completeText": "LubyJames, butcher, 153 E. 27th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              24,
+              1014,
+              624,
+              1048
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 34,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Lucanback Carl, candies, 10424 Ludlow",
+          "columnIndex": 1,
+          "completeText": "Lucanback Carl, candies, 10424 Ludlow"
+        },
+        {
+          "properties": {
+            "bbox": [
+              24,
+              1048,
+              589,
+              1079
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Lucas Alexander, jeweller, 48 Vesey",
+          "columnIndex": 1,
+          "completeText": "Lucas Alexander, jeweller, 48 Vesey"
+        },
+        {
+          "properties": {
+            "bbox": [
+              24,
+              1076,
+              664,
+              1114
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Lucas Ann, widow of Aaron, 130 Norfolk",
+          "columnIndex": 1,
+          "completeText": "Lucas Ann, widow of Aaron, 130 Norfolk"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              1107,
+              805,
+              1144
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 34,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Lucas Archibald, drygoods, 47 Catharme, h. 276",
+          "columnIndex": 1,
+          "nextLineIndex": 31,
+          "completeText": "Lucas Archibald, drygoods, 47 Catharme, h. 276 Bleecker-"
+        },
+        {
+          "properties": {
+            "bbox": [
+              91,
+              1143,
+              230,
+              1168
+            ],
+            "baseline": [
+              0,
+              -1
+            ],
+            "x_size": 31.730366,
+            "x_descenders": 6.7303667,
+            "x_ascenders": 8
+          },
+          "text": "Bleecker-",
+          "previousLineIndex": 30
+        },
+        {
+          "properties": {
+            "bbox": [
+              24,
+              1171,
+              802,
+              1207
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Lucas Chailes, carpenter, 217 Twelfth, h. 197 Av.B",
+          "columnIndex": 1,
+          "completeText": "Lucas Chailes, carpenter, 217 Twelfth, h. 197 Av.B"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              1207,
+              541,
+              1239
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Lucas Henry, carman, 122 E. 20th",
+          "columnIndex": 1,
+          "completeText": "Lucas Henry, carman, 122 E. 20th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              24,
+              1238,
+              646,
+              1271
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Lucas Henry A. tailor, 8 John, h. 39 Bey",
+          "columnIndex": 1,
+          "completeText": "Lucas Henry A. tailor, 8 John, h. 39 Bey"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              1267,
+              806,
+              1303
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Lucas Isaac, architect, 1 Cottage p1. h. 1 Cottage p1",
+          "columnIndex": 1,
+          "completeText": "Lucas Isaac, architect, 1 Cottage p1. h. 1 Cottage p1"
+        },
+        {
+          "properties": {
+            "bbox": [
+              24,
+              1301,
+              773,
+              1332
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Lucas James, umbrellas, 183 Av. 6, h. 183 Av. 6 ,",
+          "columnIndex": 1,
+          "completeText": "Lucas James, umbrellas, 183 Av. 6, h. 183 Av. 6 ,"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              1334,
+              492,
+              1365
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "1 Lucas James, clerk, 116 Lewis",
+          "columnIndex": 1,
+          "completeText": "1 Lucas James, clerk, 116 Lewis"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              1363,
+              806,
+              1398
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": ", Lucas James A. carver, r. 81 Forsyth, h. 44 Suffolk",
+          "columnIndex": 1,
+          "completeText": ", Lucas James A. carver, r. 81 Forsyth, h. 44 Suffolk"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              1396,
+              726,
+              1428
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 9
+          },
+          "text": "* Lucas James G. baker, 348 Av. 6, h. 348 Av. 6",
+          "columnIndex": 1,
+          "completeText": "* Lucas James G. baker, 348 Av. 6, h. 348 Av. 6"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              1429,
+              559,
+              1462
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "1 Lucas John, late liquors, 9 Bowery",
+          "columnIndex": 1,
+          "completeText": "1 Lucas John, late liquors, 9 Bowery"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              1461,
+              717,
+              1494
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Lucas John A. express, 38 Cedar, h. 257 Av. 8",
+          "columnIndex": 1,
+          "completeText": "Lucas John A. express, 38 Cedar, h. 257 Av. 8"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              1491,
+              807,
+              1524
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Lucas John G. merchant, 160 South, 11. 96 Columbia",
+          "columnIndex": 1,
+          "completeText": "Lucas John G. merchant, 160 South, 11. 96 Columbia"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              1524,
+              806,
+              1558
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": ". Lucas J oseph R. painter,60 Greenwich Av.h.17 Gay",
+          "columnIndex": 1,
+          "completeText": ". Lucas J oseph R. painter,60 Greenwich Av.h.17 Gay"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              1558,
+              519,
+              1590
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "' Lucas Philip, camphene, 2 Fifth",
+          "columnIndex": 1,
+          "completeText": "' Lucas Philip, camphene, 2 Fifth"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              1586,
+              775,
+              1622
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Lucas Stephen, merchant, 160 South, h. Brooklyn",
+          "columnIndex": 1,
+          "completeText": "Lucas Stephen, merchant, 160 South, h. Brooklyn"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              1621,
+              599,
+              1651
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "1 Lucas Thomas, laborer, r. 161 Second",
+          "columnIndex": 1,
+          "completeText": "1 Lucas Thomas, laborer, r. 161 Second"
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              1654,
+              616,
+              1687
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Lucas William H. painter, 118 Hester .",
+          "columnIndex": 1,
+          "completeText": "Lucas William H. painter, 118 Hester ."
+        },
+        {
+          "properties": {
+            "bbox": [
+              25,
+              1682,
+              664,
+              1717
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Lucchezi Felice, 6gures, r. 229 Wilham",
+          "columnIndex": 1,
+          "completeText": "Lucchezi Felice, 6gures, r. 229 Wilham"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              1717,
+              606,
+              1748
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "1 Luce Benjamin H. printer, 289 Monroe",
+          "columnIndex": 1,
+          "completeText": "1 Luce Benjamin H. printer, 289 Monroe"
+        },
+        {
+          "properties": {
+            "bbox": [
+              26,
+              1747,
+              804,
+              1780
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Lucey Cornelius M. L. bootmaker, - James V",
+          "columnIndex": 1,
+          "completeText": "Lucey Cornelius M. L. bootmaker, - James V"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              1778,
+              807,
+              1812
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "5 Lucey Robert V. cotton dealer, 95 Pine,h.31 Bridge",
+          "columnIndex": 1,
+          "completeText": "5 Lucey Robert V. cotton dealer, 95 Pine,h.31 Bridge"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1,
+              1811,
+              543,
+              1840
+            ],
+            "baseline": [
+              0,
+              -2
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": ". Luck James E. seaman, h. 25 Pine",
+          "columnIndex": 1,
+          "completeText": ". Luck James E. seaman, h. 25 Pine"
+        },
+        {
+          "properties": {
+            "bbox": [
+              27,
+              1841,
+              808,
+              1875
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Lucke Charles, importer, r. 14 Roosevelt, h. Eighty-",
+          "columnIndex": 1,
+          "completeText": "Lucke Charles, importer, r. 14 Roosevelt, h. Eighty-"
+        },
+        {
+          "properties": {
+            "bbox": [
+              2,
+              1877,
+              302,
+              1901
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 30.730366,
+            "x_descenders": 6.7303667,
+            "x_ascenders": 7
+          },
+          "text": "5 ninth 11. Av. 8",
+          "columnIndex": 1,
+          "completeText": "5 ninth 11. Av. 8"
+        },
+        {
+          "properties": {
+            "bbox": [
+              27,
+              1905,
+              808,
+              1940
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Luckey Dorcas, wid. of James, boardintr, 3 Warren",
+          "columnIndex": 1,
+          "completeText": "Luckey Dorcas, wid. of James, boardintr, 3 Warren"
+        },
+        {
+          "properties": {
+            "bbox": [
+              28,
+              1925,
+              808,
+              1972
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Luckey Freebarn Glawyer, 75 N assau,r11.44 Horatio",
+          "columnIndex": 1,
+          "completeText": "Luckey Freebarn Glawyer, 75 N assau,r11.44 Horatio"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              1968,
+              807,
+              2004
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 29,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "L Luckey James C. 35th sec. public school society,",
+          "columnIndex": 1,
+          "nextLineIndex": 58,
+          "completeText": "L Luckey James C. 35th sec. public school society, h. 146 Grand"
+        },
+        {
+          "properties": {
+            "bbox": [
+              90,
+              2002,
+              283,
+              2029
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 30.730366,
+            "x_descenders": 6.7303667,
+            "x_ascenders": 7
+          },
+          "text": "h. 146 Grand",
+          "previousLineIndex": 57
+        },
+        {
+          "properties": {
+            "bbox": [
+              28,
+              2032,
+              809,
+              2067
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Luckey J oseph N.oildealer,44 Cortlandt,h.27 Hubert",
+          "columnIndex": 1,
+          "completeText": "Luckey J oseph N.oildealer,44 Cortlandt,h.27 Hubert"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              2065,
+              807,
+              2098
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "I Luckey Samuel,drygoods,17 Cortlandt,h.27 Hubert",
+          "columnIndex": 1,
+          "completeText": "I Luckey Samuel,drygoods,17 Cortlandt,h.27 Hubert"
+        },
+        {
+          "properties": {
+            "bbox": [
+              28,
+              2097,
+              683,
+              2130
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "Luckey Samuel, segarmaker, 245 Bleecker",
+          "columnIndex": 1,
+          "completeText": "Luckey Samuel, segarmaker, 245 Bleecker"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              2127,
+              809,
+              2162
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "t Luckner Robert, paperboxes, 286 Pear1,h. 74 Ful-",
+          "columnIndex": 1,
+          "completeText": "t Luckner Robert, paperboxes, 286 Pear1,h. 74 Ful-"
+        },
+        {
+          "properties": {
+            "bbox": [
+              6,
+              2164,
+              717,
+              2193
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 29,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "' ton, Brooklyn . 1",
+          "columnIndex": 1,
+          "completeText": "' ton, Brooklyn . 1"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              2191,
+              619,
+              2225
+            ],
+            "baseline": [
+              0,
+              -3
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "3 Luckton J ames, moulder, 624 Orchard",
+          "columnIndex": 1,
+          "completeText": "3 Luckton J ames, moulder, 624 Orchard"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              2223,
+              687,
+              2258
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "j Lucus George, laboratory, Av. 7 n. W. 23d",
+          "columnIndex": 1,
+          "completeText": "j Lucus George, laboratory, Av. 7 n. W. 23d"
+        },
+        {
+          "properties": {
+            "bbox": [
+              28,
+              2257,
+              719,
+              2292
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Lucy Denis, laborer, 46 Pearl .",
+          "columnIndex": 1,
+          "completeText": "Lucy Denis, laborer, 46 Pearl ."
+        },
+        {
+          "properties": {
+            "bbox": [
+              28,
+              2287,
+              809,
+              2323
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Lucy Mary, Wid. Cornelius, fruit,h.137 Washington",
+          "columnIndex": 1,
+          "completeText": "Lucy Mary, Wid. Cornelius, fruit,h.137 Washington"
+        },
+        {
+          "properties": {
+            "bbox": [
+              29,
+              2319,
+              767,
+              2354
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Lucy Sarah, fancygoods, 206 Canal, 11. 206 Canal",
+          "columnIndex": 1,
+          "completeText": "Lucy Sarah, fancygoods, 206 Canal, 11. 206 Canal"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              2351,
+              768,
+              2388
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "- Lucy & Taylor, fanoygoods, 206 Capal '",
+          "columnIndex": 1,
+          "completeText": "- Lucy & Taylor, fanoygoods, 206 Capal '"
+        },
+        {
+          "properties": {
+            "bbox": [
+              29,
+              2382,
+              807,
+              2418
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Ludemau Henry, liquors, 1 Greenwmh,h. 1 G.chh",
+          "columnIndex": 1,
+          "completeText": "Ludemau Henry, liquors, 1 Greenwmh,h. 1 G.chh"
+        },
+        {
+          "properties": {
+            "bbox": [
+              30,
+              2417,
+              545,
+              2450
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 29,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Luder Edward, porter, 76 Hudson",
+          "columnIndex": 1,
+          "completeText": "Luder Edward, porter, 76 Hudson"
+        },
+        {
+          "properties": {
+            "bbox": [
+              31,
+              2445,
+              808,
+              2483
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Ludewig Herman E. lawyer, r. 35 Wall, h. Bfklyn",
+          "columnIndex": 1,
+          "completeText": "Ludewig Herman E. lawyer, r. 35 Wall, h. Bfklyn"
+        },
+        {
+          "properties": {
+            "bbox": [
+              29,
+              2479,
+              585,
+              2515
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 33,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Ludewig & Smith, lawyers, 35 Wall",
+          "columnIndex": 1,
+          "completeText": "Ludewig & Smith, lawyers, 35 Wall"
+        },
+        {
+          "properties": {
+            "bbox": [
+              30,
+              2509,
+              807,
+              2546
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Ludington Charles H. drygoods, 16 Cortlandtyh.",
+          "columnIndex": 1,
+          "nextLineIndex": 75,
+          "completeText": "Ludington Charles H. drygoods, 16 Cortlandtyh. Western hotel"
+        },
+        {
+          "properties": {
+            "bbox": [
+              92,
+              2546,
+              315,
+              2571
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 30.730366,
+            "x_descenders": 6.7303667,
+            "x_ascenders": 7
+          },
+          "text": "Western hotel",
+          "previousLineIndex": 74
+        },
+        {
+          "properties": {
+            "bbox": [
+              31,
+              2574,
+              705,
+              2611
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Ludington Oran', bookbinder, r. 1914 Greene",
+          "columnIndex": 1,
+          "completeText": "Ludington Oran', bookbinder, r. 1914 Greene"
+        },
+        {
+          "properties": {
+            "bbox": [
+              31,
+              2604,
+              807,
+              2642
+            ],
+            "baseline": [
+              0,
+              -2
+            ],
+            "x_size": 34,
+            "x_descenders": 6,
+            "x_ascenders": 11
+          },
+          "text": "Ludlam Abram B. groocer, 124 Beekman, h. 32",
+          "columnIndex": 1,
+          "completeText": "Ludlam Abram B. groocer, 124 Beekman, h. 32"
+        },
+        {
+          "properties": {
+            "bbox": [
+              2,
+              2642,
+              755,
+              2669
+            ],
+            "baseline": [
+              0,
+              -1
+            ],
+            "x_size": 31.730366,
+            "x_descenders": 6.7303667,
+            "x_ascenders": 8
+          },
+          "text": ", J efferson 5 .",
+          "columnIndex": 1,
+          "completeText": ", J efferson 5 ."
+        },
+        {
+          "properties": {
+            "bbox": [
+              31,
+              2670,
+              754,
+              2706
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Ludlam Charles, broker, 58. Willett, h. 8 Goerq",
+          "columnIndex": 1,
+          "completeText": "Ludlam Charles, broker, 58. Willett, h. 8 Goerq"
+        },
+        {
+          "properties": {
+            "bbox": [
+              0,
+              2701,
+              793,
+              2737
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "a Ludlam David jr. com. mer. 36 Front, h. Slng S1ng",
+          "columnIndex": 1,
+          "completeText": "a Ludlam David jr. com. mer. 36 Front, h. Slng S1ng"
+        },
+        {
+          "properties": {
+            "bbox": [
+              31,
+              2732,
+              801,
+              2772
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 7
+          },
+          "text": "Ludlam Edward, surveyer, 8 James, 11. 78 Maglson",
+          "columnIndex": 1,
+          "completeText": "Ludlam Edward, surveyer, 8 James, 11. 78 Maglson"
+        },
+        {
+          "properties": {
+            "bbox": [
+              31,
+              2765,
+              807,
+              2800
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "LUDLAM HENRY,commission merchant,151 1* rent,",
+          "columnIndex": 1,
+          "nextLineIndex": 83,
+          "completeText": "LUDLAM HENRY,commission merchant,151 1* rent, 11. 77 E. 18th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              93,
+              2801,
+              288,
+              2826
+            ],
+            "baseline": [
+              0,
+              -1
+            ],
+            "x_size": 29.168795,
+            "x_descenders": 6.1687942,
+            "x_ascenders": 7.4184561
+          },
+          "text": "11. 77 E. 18th",
+          "previousLineIndex": 82
+        },
+        {
+          "properties": {
+            "bbox": [
+              12,
+              2828,
+              808,
+              2866
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 35,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": ", Ludlam Isaac T. city surveyer, 8 J ames, h. 281 E.",
+          "columnIndex": 1,
+          "nextLineIndex": 85,
+          "completeText": ", Ludlam Isaac T. city surveyer, 8 J ames, h. 281 E. Broadway"
+        },
+        {
+          "properties": {
+            "bbox": [
+              93,
+              2865,
+              247,
+              2896
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Broadway",
+          "previousLineIndex": 84
+        },
+        {
+          "properties": {
+            "bbox": [
+              33,
+              2904,
+              37,
+              2911
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 20,
+            "x_descenders": 5,
+            "x_ascenders": 5
+          },
+          "text": "(",
+          "columnIndex": 1,
+          "nextLineIndex": 87,
+          "completeText": "( 19 ,"
+        },
+        {
+          "properties": {
+            "bbox": [
+              385,
+              2914,
+              649,
+              2949
+            ],
+            "baseline": [
+              0,
+              -2
+            ],
+            "x_size": 45.333332,
+            "x_descenders": 11.333333,
+            "x_ascenders": 11.333333
+          },
+          "text": "19 ,",
+          "previousLineIndex": 86
+        },
+        {
+          "properties": {
+            "bbox": [
+              787,
+              112,
+              858,
+              147
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 45.666668,
+            "x_descenders": 11.416667,
+            "x_ascenders": 11.416667
+          },
+          "text": "309"
+        },
+        {
+          "properties": {
+            "bbox": [
+              1134,
+              85,
+              1266,
+              147
+            ],
+            "baseline": [
+              0,
+              -2
+            ],
+            "x_size": 66.42466,
+            "x_descenders": 5.4246578,
+            "x_ascenders": 25
+          },
+          "text": "LUK'"
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              182,
+              1439,
+              215
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Ludlam John, builder, 13 P611, 11. 36 Pitt",
+          "columnIndex": 0,
+          "completeText": "Ludlam John, builder, 13 P611, 11. 36 Pitt"
+        },
+        {
+          "properties": {
+            "bbox": [
+              833,
+              214,
+              1608,
+              245
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Ludlam Joseph, captain, 84 Madison , . .",
+          "columnIndex": 0,
+          "completeText": "Ludlam Joseph, captain, 84 Madison , . ."
+        },
+        {
+          "properties": {
+            "bbox": [
+              833,
+              246,
+              1610,
+              279
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Ludlam William,grocer,124 Beekman,h.70 Seventh",
+          "columnIndex": 0,
+          "completeText": "Ludlam William,grocer,124 Beekman,h.70 Seventh"
+        },
+        {
+          "properties": {
+            "bbox": [
+              833,
+              278,
+              1611,
+              312
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 7
+          },
+          "text": "Ludlam W. & A. B. grocers, 124 Beekman, h. 70",
+          "columnIndex": 0,
+          "nextLineIndex": 94,
+          "completeText": "Ludlam W. & A. B. grocers, 124 Beekman, h. 70 Seventh"
+        },
+        {
+          "properties": {
+            "bbox": [
+              897,
+              309,
+              1016,
+              334
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 30.696405,
+            "x_descenders": 6.6964054,
+            "x_ascenders": 8
+          },
+          "text": "Seventh",
+          "previousLineIndex": 93
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              340,
+              1610,
+              377
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 29,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "LUDLAM & LEGGETT, commission merchants,",
+          "columnIndex": 0,
+          "nextLineIndex": 96,
+          "completeText": "LUDLAM & LEGGETT, commission merchants, 36 Front"
+        },
+        {
+          "properties": {
+            "bbox": [
+              897,
+              374,
+              1023,
+              398
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 31.114931,
+            "x_descenders": 7.1149306,
+            "x_ascenders": 7
+          },
+          "text": "36 Front",
+          "previousLineIndex": 95
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              403,
+              1380,
+              437
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Ludlow Charles D. pilot, 52 Forsyth",
+          "columnIndex": 0,
+          "completeText": "Ludlow Charles D. pilot, 52 Forsyth"
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              436,
+              1521,
+              470
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Ludlow Edward G. physician, 759 Broadway",
+          "columnIndex": 0,
+          "completeText": "Ludlow Edward G. physician, 759 Broadway"
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              468,
+              1601,
+              499
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Ludlow Edward, surveyor, 8 James, 11. 78 Madison",
+          "columnIndex": 0,
+          "completeText": "Ludlow Edward, surveyor, 8 James, 11. 78 Madison"
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              498,
+              1364,
+              532
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 29,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "Ludlow Edwin, clerk, 20 Amity pl",
+          "columnIndex": 0,
+          "completeText": "Ludlow Edwin, clerk, 20 Amity pl"
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              531,
+              1516,
+              562
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 29,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "Ludlow Elizabeth, widow of Peter, 387 Sixth",
+          "columnIndex": 0,
+          "completeText": "Ludlow Elizabeth, widow of Peter, 387 Sixth"
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              563,
+              1375,
+              596
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 9,
+            "x_ascenders": 7
+          },
+          "text": "Ludlow Ezra, builder, 20 Amity pl",
+          "columnIndex": 0,
+          "completeText": "Ludlow Ezra, builder, 20 Amity pl"
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              594,
+              1565,
+              629
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Ludlo'w Ezrajr. clerk, 19 South, 11. 20 Amity p1",
+          "columnIndex": 0,
+          "completeText": "Ludlo'w Ezrajr. clerk, 19 South, 11. 20 Amity p1"
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              628,
+              1319,
+              658
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 7
+          },
+          "text": "Ludlow James, agent, 470 West",
+          "columnIndex": 0,
+          "completeText": "Ludlow James, agent, 470 West"
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              659,
+              1619,
+              688
+            ],
+            "baseline": [
+              0,
+              -3
+            ],
+            "x_size": 29,
+            "x_descenders": 6,
+            "x_ascenders": 6
+          },
+          "text": "Ludlow James, 90 Prince 1",
+          "columnIndex": 0,
+          "completeText": "Ludlow James, 90 Prince 1"
+        },
+        {
+          "properties": {
+            "bbox": [
+              833,
+              691,
+              1610,
+              725
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 33,
+            "x_descenders": 9,
+            "x_ascenders": 7
+          },
+          "text": "Ludlow J ames, commission merchant, 12 Old slip,",
+          "columnIndex": 0,
+          "nextLineIndex": 107,
+          "completeText": "Ludlow J ames, commission merchant, 12 Old slip, h. Long Island"
+        },
+        {
+          "properties": {
+            "bbox": [
+              896,
+              722,
+              1119,
+              754
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "h. Long Island",
+          "previousLineIndex": 106
+        },
+        {
+          "properties": {
+            "bbox": [
+              833,
+              754,
+              1508,
+              786
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Ludlow Mary, widow of Robert, 16 W. 19th",
+          "columnIndex": 0,
+          "completeText": "Ludlow Mary, widow of Robert, 16 W. 19th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              786,
+              1549,
+              817
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Ludlow Richard, porterhouse, Av. 2 c. E. 26th.",
+          "columnIndex": 0,
+          "completeText": "Ludlow Richard, porterhouse, Av. 2 c. E. 26th."
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              818,
+              1273,
+              844
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 30.696405,
+            "x_descenders": 6.6964054,
+            "x_ascenders": 8
+          },
+          "text": "Ludlow Robert H. 211 Tenth",
+          "columnIndex": 0,
+          "completeText": "Ludlow Robert H. 211 Tenth"
+        },
+        {
+          "properties": {
+            "bbox": [
+              833,
+              850,
+              1611,
+              883
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Ludlow Robert M. bookkeeper, 7 Battery pl. 11. 37",
+          "columnIndex": 0,
+          "nextLineIndex": 112,
+          "completeText": "Ludlow Robert M. bookkeeper, 7 Battery pl. 11. 37 W. 17th"
+        },
+        {
+          "properties": {
+            "bbox": [
+              897,
+              883,
+              1014,
+              907
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 32.289246,
+            "x_descenders": 7.0540543,
+            "x_ascenders": 8.3806448
+          },
+          "text": "W. 17th",
+          "previousLineIndex": 111
+        },
+        {
+          "properties": {
+            "bbox": [
+              833,
+              914,
+              1358,
+              945
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Ludlum (refused) 564 Greenwich",
+          "columnIndex": 0,
+          "completeText": "Ludlum (refused) 564 Greenwich"
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              946,
+              1613,
+              979
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 33,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Ludlum Abraham, grocer, 124 Beekman, h. 32 Jef-",
+          "columnIndex": 0,
+          "nextLineIndex": 115,
+          "completeText": "Ludlum Abraham, grocer, 124 Beekman, h. 32 Jefferson"
+        },
+        {
+          "properties": {
+            "bbox": [
+              897,
+              978,
+              989,
+              1003
+            ],
+            "baseline": [
+              0,
+              -1
+            ],
+            "x_size": 30.696405,
+            "x_descenders": 6.6964054,
+            "x_ascenders": 8
+          },
+          "text": "ferson",
+          "previousLineIndex": 114
+        },
+        {
+          "properties": {
+            "bbox": [
+              833,
+              1010,
+              1597,
+              1043
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 30.696405,
+            "x_descenders": 6.6964054,
+            "x_ascenders": 8
+          },
+          "text": "Ludlum Catharine. Widow of Peter W. 2 Minetta I",
+          "columnIndex": 0,
+          "completeText": "Ludlum Catharine. Widow of Peter W. 2 Minetta I"
+        },
+        {
+          "properties": {
+            "bbox": [
+              833,
+              1042,
+              1349,
+              1072
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Ludlum Charles, clerk, 8 (109er",
+          "columnIndex": 0,
+          "completeText": "Ludlum Charles, clerk, 8 (109er"
+        },
+        {
+          "properties": {
+            "bbox": [
+              833,
+              1074,
+              1374,
+              1107
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 33,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Ludlum George T. stables, 16 Av. 4",
+          "columnIndex": 0,
+          "completeText": "Ludlum George T. stables, 16 Av. 4"
+        },
+        {
+          "properties": {
+            "bbox": [
+              833,
+              1105,
+              1478,
+              1138
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 9
+          },
+          "text": "Ludlum Henry M. jr. Silversmith, 30 Fifth",
+          "columnIndex": 0,
+          "completeText": "Ludlum Henry M. jr. Silversmith, 30 Fifth"
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              1138,
+              1518,
+              1168
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Ludlum James A. stables, 16 4v. 4, h. 6 First",
+          "columnIndex": 0,
+          "completeText": "Ludlum James A. stables, 16 4v. 4, h. 6 First"
+        },
+        {
+          "properties": {
+            "bbox": [
+              833,
+              1169,
+              1612,
+              1201
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Ludlum Jesse H. hosemkr. 53 Greene,h.124 Delaney",
+          "columnIndex": 0,
+          "completeText": "Ludlum Jesse H. hosemkr. 53 Greene,h.124 Delaney"
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              1202,
+              1633,
+              1232
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Ludlum Nicholas, late hardware, 20 Mercer. h. 7 '",
+          "columnIndex": 0,
+          "nextLineIndex": 123,
+          "completeText": "Ludlum Nicholas, late hardware, 20 Mercer. h. 7 ' E. 17th 1"
+        },
+        {
+          "properties": {
+            "bbox": [
+              896,
+              1235,
+              1236,
+              1258
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 32.289246,
+            "x_descenders": 7.0540543,
+            "x_ascenders": 8.3806448
+          },
+          "text": "E. 17th 1",
+          "previousLineIndex": 122
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              1265,
+              1610,
+              1298
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Ludlum Nicholas S. drygoods, 283 Greenwich, h.",
+          "columnIndex": 0,
+          "nextLineIndex": 125,
+          "completeText": "Ludlum Nicholas S. drygoods, 283 Greenwich, h. 283 Greenwich ,"
+        },
+        {
+          "properties": {
+            "bbox": [
+              897,
+              1298,
+              1307,
+              1322
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 31.114931,
+            "x_descenders": 7.1149306,
+            "x_ascenders": 7
+          },
+          "text": "283 Greenwich ,",
+          "previousLineIndex": 124
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              1329,
+              1410,
+              1359
+            ],
+            "baseline": [
+              0,
+              -4
+            ],
+            "x_size": 30,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Ludlum William, clerk, h. 88 Monroe",
+          "columnIndex": 0,
+          "completeText": "Ludlum William, clerk, h. 88 Monroe"
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              1361,
+              1612,
+              1394
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Ludlum William H. carriagemaker, E. 19th n. Av.",
+          "columnIndex": 0,
+          "nextLineIndex": 128,
+          "completeText": "Ludlum William H. carriagemaker, E. 19th n. Av. 3, h. E. 19th 11. Av. 3"
+        },
+        {
+          "properties": {
+            "bbox": [
+              897,
+              1394,
+              1204,
+              1422
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 28,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "3, h. E. 19th 11. Av. 3",
+          "previousLineIndex": 127
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              1426,
+              1602,
+              1458
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 9
+          },
+          "text": "Ludlum & Smith, carriagcmakers, E. 19th n. AV. 3",
+          "columnIndex": 0,
+          "completeText": "Ludlum & Smith, carriagcmakers, E. 19th n. AV. 3"
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              1454,
+              1595,
+              1487
+            ],
+            "baseline": [
+              0,
+              -5
+            ],
+            "x_size": 33,
+            "x_descenders": 6,
+            "x_ascenders": 10
+          },
+          "text": "Ludovici L. broker, 93 Wall I",
+          "columnIndex": 0,
+          "completeText": "Ludovici L. broker, 93 Wall I"
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              1490,
+              1494,
+              1521
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Ludwick Henry S. machinist, h. 6 Bethune",
+          "columnIndex": 0,
+          "completeText": "Ludwick Henry S. machinist, h. 6 Bethune"
+        },
+        {
+          "properties": {
+            "bbox": [
+              834,
+              1521,
+              1608,
+              1555
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Ludwick Solomon. varnisher, 6 Spring and. grocer,",
+          "columnIndex": 0,
+          "nextLineIndex": 133,
+          "completeText": "Ludwick Solomon. varnisher, 6 Spring and. grocer, 58 Norfolk, h. 171 Eldridge"
+        },
+        {
+          "properties": {
+            "bbox": [
+              898,
+              1553,
+              1314,
+              1587
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "58 Norfolk, h. 171 Eldridge",
+          "previousLineIndex": 132
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              1585,
+              1365,
+              1618
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 33,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Ludwig Francis, carman, 84 Ridge",
+          "columnIndex": 0,
+          "completeText": "Ludwig Francis, carman, 84 Ridge"
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              1617,
+              1533,
+              1649
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Ludwig Henry, printer, 70 Vesey, h. 174 Mott",
+          "columnIndex": 0,
+          "completeText": "Ludwig Henry, printer, 70 Vesey, h. 174 Mott"
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              1649,
+              1613,
+              1682
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Ludwi Happe, doctor of medicine, surgery &",
+          "columnIndex": 0,
+          "nextLineIndex": 137,
+          "completeText": "Ludwi Happe, doctor of medicine, surgery & mi wifery, 2 Oliver"
+        },
+        {
+          "properties": {
+            "bbox": [
+              899,
+              1680,
+              1201,
+              1712
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 9
+          },
+          "text": "mi wifery, 2 Oliver",
+          "previousLineIndex": 136
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              1712,
+              1403,
+              1744
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 9
+          },
+          "text": "Ludwig Philip, segarmaker, 25 AV. 0",
+          "columnIndex": 0,
+          "completeText": "Ludwig Philip, segarmaker, 25 AV. 0"
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              1744,
+              1452,
+              1775
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 28,
+            "x_descenders": 4,
+            "x_ascenders": 8
+          },
+          "text": "Ludwig William, bootmaker, 140 Prince",
+          "columnIndex": 0,
+          "completeText": "Ludwig William, bootmaker, 140 Prince"
+        },
+        {
+          "properties": {
+            "bbox": [
+              826,
+              1776,
+              1602,
+              1809
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "'LUDWIG H. & Co. printers, 70 Vesey, after Nov",
+          "columnIndex": 0,
+          "nextLineIndex": 141,
+          "completeText": "'LUDWIG H. & Co. printers, 70 Vesey, after Nov lst 53 Vesey"
+        },
+        {
+          "properties": {
+            "bbox": [
+              900,
+              1809,
+              1086,
+              1840
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 31,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "lst 53 Vesey",
+          "previousLineIndex": 140
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              1840,
+              1506,
+              1870
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Lueke Johanna, dressmakex h. 294 Division",
+          "columnIndex": 0,
+          "completeText": "Lueke Johanna, dressmakex h. 294 Division"
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              1872,
+              1458,
+              1906
+            ],
+            "baseline": [
+              0,
+              -11
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Luers Henry, flour, 94 Barclay, h. 46 Dey",
+          "columnIndex": 0,
+          "completeText": "Luers Henry, flour, 94 Barclay, h. 46 Dey"
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              1904,
+              1485,
+              1937
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Luers & J urgens, fiour, 94 Barclay -",
+          "columnIndex": 0,
+          "completeText": "Luers & J urgens, fiour, 94 Barclay -"
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              1935,
+              1621,
+              1967
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 9
+          },
+          "text": "Luerssen Bohlke, liquors, 80 Duane, h. 55 Elm .",
+          "columnIndex": 0,
+          "completeText": "Luerssen Bohlke, liquors, 80 Duane, h. 55 Elm ."
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              1968,
+              1610,
+              1999
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Luerssen Garret, grocer, 37 Beekman & 794 Green-",
+          "columnIndex": 0,
+          "nextLineIndex": 147,
+          "completeText": "Luerssen Garret, grocer, 37 Beekman & 794 Greenwich, h. 794 Greenwich"
+        },
+        {
+          "properties": {
+            "bbox": [
+              899,
+              1999,
+              1261,
+              2029
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 9
+          },
+          "text": "wich, h. 794 Greenwich",
+          "previousLineIndex": 146
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              2030,
+              1650,
+              2062
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 9
+          },
+          "text": "Lufberry William C. clerk, 59 Maiden 1a. 11. 9 Av. 6 9",
+          "columnIndex": 0,
+          "completeText": "Lufberry William C. clerk, 59 Maiden 1a. 11. 9 Av. 6 9"
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              2063,
+              1658,
+              2094
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Luff Abigail, Widow of John N. 233 Tenth 3",
+          "columnIndex": 0,
+          "completeText": "Luff Abigail, Widow of John N. 233 Tenth 3"
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              2094,
+              1493,
+              2126
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Luff Betsy, widow of Martin, 133 Hester .",
+          "columnIndex": 0,
+          "completeText": "Luff Betsy, widow of Martin, 133 Hester ."
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              2126,
+              1610,
+              2159
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Luif George, commission merchant, 52 W'ater, 11.",
+          "columnIndex": 0,
+          "nextLineIndex": 152,
+          "completeText": "Luif George, commission merchant, 52 W'ater, 11. Jersey city ' 1"
+        },
+        {
+          "properties": {
+            "bbox": [
+              898,
+              2159,
+              1431,
+              2190
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Jersey city ' 1",
+          "previousLineIndex": 151
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              2190,
+              1553,
+              2223
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Luff George W. carver, 105 Elm, 11.660 Fourth",
+          "columnIndex": 0,
+          "completeText": "Luff George W. carver, 105 Elm, 11.660 Fourth"
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              2222,
+              1494,
+              2252
+            ],
+            "baseline": [
+              0,
+              -6
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 8
+          },
+          "text": "Luff John V. carver, 105 Elm, h. 27 Suffolk",
+          "columnIndex": 0,
+          "completeText": "Luff John V. carver, 105 Elm, h. 27 Suffolk"
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              2254,
+              1584,
+              2287
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Luff Martin H. lawyer. 170 Broadway, 11. Harlem",
+          "columnIndex": 0,
+          "completeText": "Luff Martin H. lawyer. 170 Broadway, 11. Harlem"
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              2285,
+              1388,
+              2317
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Luff Philip, butcher, 11. 214 Seventh",
+          "columnIndex": 0,
+          "completeText": "Luff Philip, butcher, 11. 214 Seventh"
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              2317,
+              1378,
+              2348
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Luff J. V. & G. W. garvers, 105 Elm",
+          "columnIndex": 0,
+          "completeText": "Luff J. V. & G. W. garvers, 105 Elm"
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              2350,
+              1592,
+              2382
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Lugar George C. painter, 94 Houston, h. 365 Sixth",
+          "columnIndex": 0,
+          "completeText": "Lugar George C. painter, 94 Houston, h. 365 Sixth"
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              2382,
+              1356,
+              2413
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 33,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Lugar Henry H. mason, 49 Suffolk",
+          "columnIndex": 0,
+          "completeText": "Lugar Henry H. mason, 49 Suffolk"
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              2413,
+              1607,
+              2446
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Lugar Jeremiah, G. painter, 94 Houston, 11. 111",
+          "columnIndex": 0,
+          "nextLineIndex": 161,
+          "completeText": "Lugar Jeremiah, G. painter, 94 Houston, 11. 111 Cannon"
+        },
+        {
+          "properties": {
+            "bbox": [
+              897,
+              2446,
+              1009,
+              2469
+            ],
+            "baseline": [
+              0,
+              0
+            ],
+            "x_size": 29.84502,
+            "x_descenders": 6.8450212,
+            "x_ascenders": 7
+          },
+          "text": "Cannon",
+          "previousLineIndex": 160
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              2476,
+              1483,
+              2509
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 32,
+            "x_descenders": 7,
+            "x_ascenders": 8
+          },
+          "text": "Lugar Rodney P. shipcarpenter, 321 Third",
+          "columnIndex": 0,
+          "completeText": "Lugar Rodney P. shipcarpenter, 321 Third"
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              2508,
+              1609,
+              2540
+            ],
+            "baseline": [
+              0,
+              -8
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Lugar G. C. & J. G. painters, 42 Av. D & 94 Houston",
+          "columnIndex": 0,
+          "completeText": "Lugar G. C. & J. G. painters, 42 Av. D & 94 Houston"
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              2540,
+              1609,
+              2573
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "Lurhing J ohn, grocer, 82 Roosevelt, h. 82 Roosevelt",
+          "columnIndex": 0,
+          "completeText": "Lurhing J ohn, grocer, 82 Roosevelt, h. 82 Roosevelt"
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              2572,
+              1576,
+              2604
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 29,
+            "x_descenders": 5,
+            "x_ascenders": 7
+          },
+          "text": "Luhrs Bernard, grocer, 22 Thomas, h. 22 Thomas",
+          "columnIndex": 0,
+          "completeText": "Luhrs Bernard, grocer, 22 Thomas, h. 22 Thomas"
+        },
+        {
+          "properties": {
+            "bbox": [
+              835,
+              2604,
+              1466,
+              2637
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Luhrs Henry, grocer, 76 Av. 6, h.76 Av. 6",
+          "columnIndex": 0,
+          "completeText": "Luhrs Henry, grocer, 76 Av. 6, h.76 Av. 6"
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              2635,
+              1609,
+              2669
+            ],
+            "baseline": [
+              0,
+              -11
+            ],
+            "x_size": 33,
+            "x_descenders": 9,
+            "x_ascenders": 8
+          },
+          "text": "Luhrs John H.grocer,57 Frankfort,h.10 Vandewater",
+          "columnIndex": 0,
+          "completeText": "Luhrs John H.grocer,57 Frankfort,h.10 Vandewater"
+        },
+        {
+          "properties": {
+            "bbox": [
+              837,
+              2667,
+              1607,
+              2701
+            ],
+            "baseline": [
+              0,
+              -11
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 8
+          },
+          "text": "Lukas George, grocer, 195 Delaney, h. 195 Delaney",
+          "columnIndex": 0,
+          "completeText": "Lukas George, grocer, 195 Delaney, h. 195 Delaney"
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              2699,
+              1607,
+              2731
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 31,
+            "x_descenders": 7,
+            "x_ascenders": 7
+          },
+          "text": "Luke Andrew, president of the old board of meas-",
+          "columnIndex": 0,
+          "nextLineIndex": 170,
+          "completeText": "Luke Andrew, president of the old board of measurers, 29 Coenties 81. h. 62 E. 22d"
+        },
+        {
+          "properties": {
+            "bbox": [
+              898,
+              2733,
+              1386,
+              2761
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 30,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "urers, 29 Coenties 81. h. 62 E. 22d",
+          "previousLineIndex": 169
+        },
+        {
+          "properties": {
+            "bbox": [
+              836,
+              2761,
+              1605,
+              2796
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 33,
+            "x_descenders": 8,
+            "x_ascenders": 8
+          },
+          "text": "Luke John H. grocer, 318 Broadway & 52 Elm, h.",
+          "columnIndex": 0,
+          "nextLineIndex": 172,
+          "completeText": "Luke John H. grocer, 318 Broadway & 52 Elm, h. 318 Broadway , . '"
+        },
+        {
+          "properties": {
+            "bbox": [
+              900,
+              2794,
+              1420,
+              2827
+            ],
+            "baseline": [
+              0,
+              -10
+            ],
+            "x_size": 32,
+            "x_descenders": 8,
+            "x_ascenders": 7
+          },
+          "text": "318 Broadway , . '",
+          "previousLineIndex": 171
+        },
+        {
+          "properties": {
+            "bbox": [
+              837,
+              2825,
+              1424,
+              2858
+            ],
+            "baseline": [
+              0,
+              -9
+            ],
+            "x_size": 32,
+            "x_descenders": 6,
+            "x_ascenders": 9
+          },
+          "text": "Luke Josephine, dressmaker, 116 AV. 4",
+          "columnIndex": 0,
+          "completeText": "Luke Josephine, dressmaker, 116 AV. 4"
+        },
+        {
+          "properties": {
+            "bbox": [
+              837,
+              2858,
+              1160,
+              2889
+            ],
+            "baseline": [
+              0,
+              -7
+            ],
+            "x_size": 31,
+            "x_descenders": 6,
+            "x_ascenders": 7
+          },
+          "text": "Luke Peter, 116 Av. 4",
+          "columnIndex": 0,
+          "completeText": "Luke Peter, 116 Av. 4"
+        }
+      ],
+      "columns": [
+        834,
+        25
+      ],
+      "linesPerColumn": [
+        69,
+        79
+      ],
+      "minLinesPerColumn": true
+    }
+  ]
+}

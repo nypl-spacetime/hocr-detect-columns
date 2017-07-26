@@ -1,0 +1,29 @@
+{
+  "name": "hocr-detect-columns",
+  "version": "0.2.0",
+  "description": "Find columns and connects indented lines from hOCR files",
+  "main": "index.js",
+  "bin": {
+    "hocr-detect-columns": "index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/nypl-spacetime/hocr-detect-columns.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Bert Spaan",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.0.1",
+    "cheerio": "^1.0.0-rc.2",
+    "dot": "^1.1.2",
+    "highland": "^2.11.1",
+    "minimist": "^1.2.0",
+    "ramda": "^0.24.1",
+    "rbush": "^2.0.1",
+    "rbush-knn": "^2.0.0",
+    "simple-statistics": "^4.1.0"
+  }
+}

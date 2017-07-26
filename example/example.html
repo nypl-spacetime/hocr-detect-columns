@@ -1,0 +1,1673 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Pages</title>
+  <style>
+    body {
+      font-family: monospace;
+      font-size: 19px;
+      background-color: #f5f5f5;
+      width: 100%;
+      padding: 0;
+      margin: 0;
+    }
+
+    body, a, a:visited {
+      color: #111;
+    }
+
+    h1, h2, .centered {
+      text-align: center;
+    }
+
+    .centered {
+      display: block;
+      padding-bottom: .5em;
+    }
+
+    ol {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .toc {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    .toc li {
+      display: inline;
+      padding: 5px;
+    }
+
+    .page {
+      position: relative;
+    }
+
+    .hidden {
+      display: none;
+    }
+
+    .lines li {
+      position: absolute;
+      background-color: rgba(255, 255, 255, 0.8);
+      padding: 2px;
+      box-sizing: border-box;
+
+      border-style: dashed;
+      border-color: rgba(0, 0, 0, 0.4);
+      border-width: 1px;
+    }
+
+    .lines li.column {
+      background-color: rgba(200, 255, 200, 0.8);
+    }
+
+    svg.connections {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      pointer-events: none;
+    }
+
+    .columns {
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 100%;
+    }
+
+    .columns rect {
+      stroke: rgba(0, 198, 28, 0.9);
+      fill: rgba(0, 198, 28, 0.3);
+    }
+  </style>
+</head>
+<body>
+  <h1>hocr-detect-columns</h1>
+  <div>
+    <div class="centered">
+      Press <b>b</b> to toggle line boxes, <b>c</b> to toggle columns, and <b>l</b> to toggle line connections
+    </div>
+    <h1>Pages</h1>
+    <ol class="toc">
+    
+      <li><a href="#0">1</a></li>
+    
+    </ol>
+  </div>
+  <ol>
+  
+    <li>
+      <h2><a name="1">Page 1</a></h2>
+      <div class="page">
+        <img src="https://images.nypl.org/index.php?id=56750774&t=g" />
+        <svg class="columns">
+        
+          <rect x="809" y="0" width="50"
+            height="100%" />
+        
+          <rect x="0" y="0" width="50"
+            height="100%" />
+        
+        </svg>
+
+        <ol class="lines">
+        
+          <li style="left: 291px; top: 84px; width: 207px; height: 68px;"
+            class=""
+            title="" >
+            ' TLUDV, 5'
+          </li>
+        
+          <li style="left: 24px; top: 182px; width: 625px; height: 34px;"
+            class="column"
+            title="Loyd Lester, daguerreotypes, 270 Grand" >
+            Loyd Lester, daguerreotypes, 270 Grand
+          </li>
+        
+          <li style="left: 4px; top: 214px; width: 586px; height: 36px;"
+            class="column"
+            title="' Loyd Thomas, grainer, r. 13 Forsyth" >
+            ' Loyd Thomas, grainer, r. 13 Forsyth
+          </li>
+        
+          <li style="left: 25px; top: 246px; width: 480px; height: 33px;"
+            class="column"
+            title="Loysel 4-, boarding, 70 Church" >
+            Loysel 4-, boarding, 70 Church
+          </li>
+        
+          <li style="left: 24px; top: 278px; width: 783px; height: 35px;"
+            class="column"
+            title="Lozier Ann, widow of Garret, milliner, 446 Hudson" >
+            Lozier Ann, widow of Garret, milliner, 446 Hudson
+          </li>
+        
+          <li style="left: 25px; top: 310px; width: 780px; height: 57px;"
+            class="column"
+            title="LoziEr Charles, butcher, 16 Clinton market, h. 153 . eroy '" >
+            LoziEr Charles, butcher, 16 Clinton market, h. 153
+          </li>
+        
+          <li style="left: 86px; top: 349px; width: 494px; height: 24px;"
+            class=""
+            title="" >
+            . eroy '
+          </li>
+        
+          <li style="left: 25px; top: 374px; width: 783px; height: 35px;"
+            class="column"
+            title="Lozier Charles H. butcher, Clinton market, 11. 164 Christopher" >
+            Lozier Charles H. butcher, Clinton market, 11. 164
+          </li>
+        
+          <li style="left: 88px; top: 407px; width: 181px; height: 31px;"
+            class=""
+            title="" >
+            Christopher
+          </li>
+        
+          <li style="left: 25px; top: 439px; width: 622px; height: 32px;"
+            class="column"
+            title="Lozier Cornelius, carman, 100 Hammond" >
+            Lozier Cornelius, carman, 100 Hammond
+          </li>
+        
+          <li style="left: 5px; top: 471px; width: 610px; height: 36px;"
+            class="column"
+            title=", Lozier Edward W. dentist, 28.2 Spring" >
+            , Lozier Edward W. dentist, 28.2 Spring
+          </li>
+        
+          <li style="left: 25px; top: 502px; width: 550px; height: 33px;"
+            class="column"
+            title="Lozier Elizabeth, nurse, 164 E. 27th" >
+            Lozier Elizabeth, nurse, 164 E. 27th
+          </li>
+        
+          <li style="left: 24px; top: 535px; width: 498px; height: 32px;"
+            class="column"
+            title="Lozier John, builder, 128 E. 30th" >
+            Lozier John, builder, 128 E. 30th
+          </li>
+        
+          <li style="left: 25px; top: 567px; width: 697px; height: 33px;"
+            class="column"
+            title="Lozier Phebe, widow of Nicholas, 278 Spring" >
+            Lozier Phebe, widow of Nicholas, 278 Spring
+          </li>
+        
+          <li style="left: 25px; top: 599px; width: 649px; height: 56px;"
+            class="column"
+            title="Lozier Steghem carman, 21 W. Broadway" >
+            Lozier Steghem carman, 21 W. Broadway
+          </li>
+        
+          <li style="left: 24px; top: 631px; width: 658px; height: 33px;"
+            class="column"
+            title="Lozier Wi liam, boilermaker, h. 303 Spring" >
+            Lozier Wi liam, boilermaker, h. 303 Spring
+          </li>
+        
+          <li style="left: 25px; top: 664px; width: 635px; height: 32px;"
+            class="column"
+            title="Lozier William, picture frames, 10 Watts" >
+            Lozier William, picture frames, 10 Watts
+          </li>
+        
+          <li style="left: 25px; top: 696px; width: 592px; height: 32px;"
+            class="column"
+            title="Lubberger David, shoemaker, 17 Av. 9" >
+            Lubberger David, shoemaker, 17 Av. 9
+          </li>
+        
+          <li style="left: 24px; top: 728px; width: 546px; height: 31px;"
+            class="column"
+            title="Lubbert Edward, refiner, 28 Hubert" >
+            Lubbert Edward, refiner, 28 Hubert
+          </li>
+        
+          <li style="left: 8px; top: 760px; width: 608px; height: 32px;"
+            class="column"
+            title="' Lubbock Henry, machinist, 4 Bethune" >
+            ' Lubbock Henry, machinist, 4 Bethune
+          </li>
+        
+          <li style="left: 25px; top: 792px; width: 584px; height: 34px;"
+            class="column"
+            title="Lubbock Henry S. engineer, 195 Av. 3" >
+            Lubbock Henry S. engineer, 195 Av. 3
+          </li>
+        
+          <li style="left: 24px; top: 824px; width: 563px; height: 31px;"
+            class="column"
+            title="Lubby William, laborer, 10 Caroline" >
+            Lubby William, laborer, 10 Caroline
+          </li>
+        
+          <li style="left: 25px; top: 855px; width: 446px; height: 33px;"
+            class="column"
+            title="Lubliner Simon, 259 Delaney" >
+            Lubliner Simon, 259 Delaney
+          </li>
+        
+          <li style="left: 24px; top: 887px; width: 585px; height: 34px;"
+            class="column"
+            title="Lubman Henry, carpenter, 383g- Grand" >
+            Lubman Henry, carpenter, 383g- Grand
+          </li>
+        
+          <li style="left: 25px; top: 916px; width: 778px; height: 60px;"
+            class="column"
+            title="LubiHerlzry & Co. porterhouse, 24 Coenties 51. h. 3" >
+            LubiHerlzry & Co. porterhouse, 24 Coenties 51. h. 3
+          </li>
+        
+          <li style="left: 41px; top: 958px; width: 118px; height: 18px;"
+            class="column"
+            title="' ear" >
+            ' ear
+          </li>
+        
+          <li style="left: 25px; top: 983px; width: 512px; height: 32px;"
+            class="column"
+            title="LubyJames, butcher, 153 E. 27th" >
+            LubyJames, butcher, 153 E. 27th
+          </li>
+        
+          <li style="left: 24px; top: 1014px; width: 600px; height: 34px;"
+            class="column"
+            title="Lucanback Carl, candies, 10424 Ludlow" >
+            Lucanback Carl, candies, 10424 Ludlow
+          </li>
+        
+          <li style="left: 24px; top: 1048px; width: 565px; height: 31px;"
+            class="column"
+            title="Lucas Alexander, jeweller, 48 Vesey" >
+            Lucas Alexander, jeweller, 48 Vesey
+          </li>
+        
+          <li style="left: 24px; top: 1076px; width: 640px; height: 38px;"
+            class="column"
+            title="Lucas Ann, widow of Aaron, 130 Norfolk" >
+            Lucas Ann, widow of Aaron, 130 Norfolk
+          </li>
+        
+          <li style="left: 25px; top: 1107px; width: 780px; height: 37px;"
+            class="column"
+            title="Lucas Archibald, drygoods, 47 Catharme, h. 276 Bleecker-" >
+            Lucas Archibald, drygoods, 47 Catharme, h. 276
+          </li>
+        
+          <li style="left: 91px; top: 1143px; width: 139px; height: 25px;"
+            class=""
+            title="" >
+            Bleecker-
+          </li>
+        
+          <li style="left: 24px; top: 1171px; width: 778px; height: 36px;"
+            class="column"
+            title="Lucas Chailes, carpenter, 217 Twelfth, h. 197 Av.B" >
+            Lucas Chailes, carpenter, 217 Twelfth, h. 197 Av.B
+          </li>
+        
+          <li style="left: 25px; top: 1207px; width: 516px; height: 32px;"
+            class="column"
+            title="Lucas Henry, carman, 122 E. 20th" >
+            Lucas Henry, carman, 122 E. 20th
+          </li>
+        
+          <li style="left: 24px; top: 1238px; width: 622px; height: 33px;"
+            class="column"
+            title="Lucas Henry A. tailor, 8 John, h. 39 Bey" >
+            Lucas Henry A. tailor, 8 John, h. 39 Bey
+          </li>
+        
+          <li style="left: 25px; top: 1267px; width: 781px; height: 36px;"
+            class="column"
+            title="Lucas Isaac, architect, 1 Cottage p1. h. 1 Cottage p1" >
+            Lucas Isaac, architect, 1 Cottage p1. h. 1 Cottage p1
+          </li>
+        
+          <li style="left: 24px; top: 1301px; width: 749px; height: 31px;"
+            class="column"
+            title="Lucas James, umbrellas, 183 Av. 6, h. 183 Av. 6 ," >
+            Lucas James, umbrellas, 183 Av. 6, h. 183 Av. 6 ,
+          </li>
+        
+          <li style="left: 0px; top: 1334px; width: 492px; height: 31px;"
+            class="column"
+            title="1 Lucas James, clerk, 116 Lewis" >
+            1 Lucas James, clerk, 116 Lewis
+          </li>
+        
+          <li style="left: 0px; top: 1363px; width: 806px; height: 35px;"
+            class="column"
+            title=", Lucas James A. carver, r. 81 Forsyth, h. 44 Suffolk" >
+            , Lucas James A. carver, r. 81 Forsyth, h. 44 Suffolk
+          </li>
+        
+          <li style="left: 0px; top: 1396px; width: 726px; height: 32px;"
+            class="column"
+            title="* Lucas James G. baker, 348 Av. 6, h. 348 Av. 6" >
+            * Lucas James G. baker, 348 Av. 6, h. 348 Av. 6
+          </li>
+        
+          <li style="left: 0px; top: 1429px; width: 559px; height: 33px;"
+            class="column"
+            title="1 Lucas John, late liquors, 9 Bowery" >
+            1 Lucas John, late liquors, 9 Bowery
+          </li>
+        
+          <li style="left: 25px; top: 1461px; width: 692px; height: 33px;"
+            class="column"
+            title="Lucas John A. express, 38 Cedar, h. 257 Av. 8" >
+            Lucas John A. express, 38 Cedar, h. 257 Av. 8
+          </li>
+        
+          <li style="left: 25px; top: 1491px; width: 782px; height: 33px;"
+            class="column"
+            title="Lucas John G. merchant, 160 South, 11. 96 Columbia" >
+            Lucas John G. merchant, 160 South, 11. 96 Columbia
+          </li>
+        
+          <li style="left: 0px; top: 1524px; width: 806px; height: 34px;"
+            class="column"
+            title=". Lucas J oseph R. painter,60 Greenwich Av.h.17 Gay" >
+            . Lucas J oseph R. painter,60 Greenwich Av.h.17 Gay
+          </li>
+        
+          <li style="left: 0px; top: 1558px; width: 519px; height: 32px;"
+            class="column"
+            title="' Lucas Philip, camphene, 2 Fifth" >
+            ' Lucas Philip, camphene, 2 Fifth
+          </li>
+        
+          <li style="left: 25px; top: 1586px; width: 750px; height: 36px;"
+            class="column"
+            title="Lucas Stephen, merchant, 160 South, h. Brooklyn" >
+            Lucas Stephen, merchant, 160 South, h. Brooklyn
+          </li>
+        
+          <li style="left: 0px; top: 1621px; width: 599px; height: 30px;"
+            class="column"
+            title="1 Lucas Thomas, laborer, r. 161 Second" >
+            1 Lucas Thomas, laborer, r. 161 Second
+          </li>
+        
+          <li style="left: 25px; top: 1654px; width: 591px; height: 33px;"
+            class="column"
+            title="Lucas William H. painter, 118 Hester ." >
+            Lucas William H. painter, 118 Hester .
+          </li>
+        
+          <li style="left: 25px; top: 1682px; width: 639px; height: 35px;"
+            class="column"
+            title="Lucchezi Felice, 6gures, r. 229 Wilham" >
+            Lucchezi Felice, 6gures, r. 229 Wilham
+          </li>
+        
+          <li style="left: 0px; top: 1717px; width: 606px; height: 31px;"
+            class="column"
+            title="1 Luce Benjamin H. printer, 289 Monroe" >
+            1 Luce Benjamin H. printer, 289 Monroe
+          </li>
+        
+          <li style="left: 26px; top: 1747px; width: 778px; height: 33px;"
+            class="column"
+            title="Lucey Cornelius M. L. bootmaker, - James V" >
+            Lucey Cornelius M. L. bootmaker, - James V
+          </li>
+        
+          <li style="left: 0px; top: 1778px; width: 807px; height: 34px;"
+            class="column"
+            title="5 Lucey Robert V. cotton dealer, 95 Pine,h.31 Bridge" >
+            5 Lucey Robert V. cotton dealer, 95 Pine,h.31 Bridge
+          </li>
+        
+          <li style="left: 1px; top: 1811px; width: 542px; height: 29px;"
+            class="column"
+            title=". Luck James E. seaman, h. 25 Pine" >
+            . Luck James E. seaman, h. 25 Pine
+          </li>
+        
+          <li style="left: 27px; top: 1841px; width: 781px; height: 34px;"
+            class="column"
+            title="Lucke Charles, importer, r. 14 Roosevelt, h. Eighty-" >
+            Lucke Charles, importer, r. 14 Roosevelt, h. Eighty-
+          </li>
+        
+          <li style="left: 2px; top: 1877px; width: 300px; height: 24px;"
+            class="column"
+            title="5 ninth 11. Av. 8" >
+            5 ninth 11. Av. 8
+          </li>
+        
+          <li style="left: 27px; top: 1905px; width: 781px; height: 35px;"
+            class="column"
+            title="Luckey Dorcas, wid. of James, boardintr, 3 Warren" >
+            Luckey Dorcas, wid. of James, boardintr, 3 Warren
+          </li>
+        
+          <li style="left: 28px; top: 1925px; width: 780px; height: 47px;"
+            class="column"
+            title="Luckey Freebarn Glawyer, 75 N assau,r11.44 Horatio" >
+            Luckey Freebarn Glawyer, 75 N assau,r11.44 Horatio
+          </li>
+        
+          <li style="left: 0px; top: 1968px; width: 807px; height: 36px;"
+            class="column"
+            title="L Luckey James C. 35th sec. public school society, h. 146 Grand" >
+            L Luckey James C. 35th sec. public school society,
+          </li>
+        
+          <li style="left: 90px; top: 2002px; width: 193px; height: 27px;"
+            class=""
+            title="" >
+            h. 146 Grand
+          </li>
+        
+          <li style="left: 28px; top: 2032px; width: 781px; height: 35px;"
+            class="column"
+            title="Luckey J oseph N.oildealer,44 Cortlandt,h.27 Hubert" >
+            Luckey J oseph N.oildealer,44 Cortlandt,h.27 Hubert
+          </li>
+        
+          <li style="left: 0px; top: 2065px; width: 807px; height: 33px;"
+            class="column"
+            title="I Luckey Samuel,drygoods,17 Cortlandt,h.27 Hubert" >
+            I Luckey Samuel,drygoods,17 Cortlandt,h.27 Hubert
+          </li>
+        
+          <li style="left: 28px; top: 2097px; width: 655px; height: 33px;"
+            class="column"
+            title="Luckey Samuel, segarmaker, 245 Bleecker" >
+            Luckey Samuel, segarmaker, 245 Bleecker
+          </li>
+        
+          <li style="left: 0px; top: 2127px; width: 809px; height: 35px;"
+            class="column"
+            title="t Luckner Robert, paperboxes, 286 Pear1,h. 74 Ful-" >
+            t Luckner Robert, paperboxes, 286 Pear1,h. 74 Ful-
+          </li>
+        
+          <li style="left: 6px; top: 2164px; width: 711px; height: 29px;"
+            class="column"
+            title="' ton, Brooklyn . 1" >
+            ' ton, Brooklyn . 1
+          </li>
+        
+          <li style="left: 0px; top: 2191px; width: 619px; height: 34px;"
+            class="column"
+            title="3 Luckton J ames, moulder, 624 Orchard" >
+            3 Luckton J ames, moulder, 624 Orchard
+          </li>
+        
+          <li style="left: 0px; top: 2223px; width: 687px; height: 35px;"
+            class="column"
+            title="j Lucus George, laboratory, Av. 7 n. W. 23d" >
+            j Lucus George, laboratory, Av. 7 n. W. 23d
+          </li>
+        
+          <li style="left: 28px; top: 2257px; width: 691px; height: 35px;"
+            class="column"
+            title="Lucy Denis, laborer, 46 Pearl ." >
+            Lucy Denis, laborer, 46 Pearl .
+          </li>
+        
+          <li style="left: 28px; top: 2287px; width: 781px; height: 36px;"
+            class="column"
+            title="Lucy Mary, Wid. Cornelius, fruit,h.137 Washington" >
+            Lucy Mary, Wid. Cornelius, fruit,h.137 Washington
+          </li>
+        
+          <li style="left: 29px; top: 2319px; width: 738px; height: 35px;"
+            class="column"
+            title="Lucy Sarah, fancygoods, 206 Canal, 11. 206 Canal" >
+            Lucy Sarah, fancygoods, 206 Canal, 11. 206 Canal
+          </li>
+        
+          <li style="left: 0px; top: 2351px; width: 768px; height: 37px;"
+            class="column"
+            title="- Lucy & Taylor, fanoygoods, 206 Capal '" >
+            - Lucy & Taylor, fanoygoods, 206 Capal '
+          </li>
+        
+          <li style="left: 29px; top: 2382px; width: 778px; height: 36px;"
+            class="column"
+            title="Ludemau Henry, liquors, 1 Greenwmh,h. 1 G.chh" >
+            Ludemau Henry, liquors, 1 Greenwmh,h. 1 G.chh
+          </li>
+        
+          <li style="left: 30px; top: 2417px; width: 515px; height: 33px;"
+            class="column"
+            title="Luder Edward, porter, 76 Hudson" >
+            Luder Edward, porter, 76 Hudson
+          </li>
+        
+          <li style="left: 31px; top: 2445px; width: 777px; height: 38px;"
+            class="column"
+            title="Ludewig Herman E. lawyer, r. 35 Wall, h. Bfklyn" >
+            Ludewig Herman E. lawyer, r. 35 Wall, h. Bfklyn
+          </li>
+        
+          <li style="left: 29px; top: 2479px; width: 556px; height: 36px;"
+            class="column"
+            title="Ludewig & Smith, lawyers, 35 Wall" >
+            Ludewig & Smith, lawyers, 35 Wall
+          </li>
+        
+          <li style="left: 30px; top: 2509px; width: 777px; height: 37px;"
+            class="column"
+            title="Ludington Charles H. drygoods, 16 Cortlandtyh. Western hotel" >
+            Ludington Charles H. drygoods, 16 Cortlandtyh.
+          </li>
+        
+          <li style="left: 92px; top: 2546px; width: 223px; height: 25px;"
+            class=""
+            title="" >
+            Western hotel
+          </li>
+        
+          <li style="left: 31px; top: 2574px; width: 674px; height: 37px;"
+            class="column"
+            title="Ludington Oran', bookbinder, r. 1914 Greene" >
+            Ludington Oran', bookbinder, r. 1914 Greene
+          </li>
+        
+          <li style="left: 31px; top: 2604px; width: 776px; height: 38px;"
+            class="column"
+            title="Ludlam Abram B. groocer, 124 Beekman, h. 32" >
+            Ludlam Abram B. groocer, 124 Beekman, h. 32
+          </li>
+        
+          <li style="left: 2px; top: 2642px; width: 753px; height: 27px;"
+            class="column"
+            title=", J efferson 5 ." >
+            , J efferson 5 .
+          </li>
+        
+          <li style="left: 31px; top: 2670px; width: 723px; height: 36px;"
+            class="column"
+            title="Ludlam Charles, broker, 58. Willett, h. 8 Goerq" >
+            Ludlam Charles, broker, 58. Willett, h. 8 Goerq
+          </li>
+        
+          <li style="left: 0px; top: 2701px; width: 793px; height: 36px;"
+            class="column"
+            title="a Ludlam David jr. com. mer. 36 Front, h. Slng S1ng" >
+            a Ludlam David jr. com. mer. 36 Front, h. Slng S1ng
+          </li>
+        
+          <li style="left: 31px; top: 2732px; width: 770px; height: 40px;"
+            class="column"
+            title="Ludlam Edward, surveyer, 8 James, 11. 78 Maglson" >
+            Ludlam Edward, surveyer, 8 James, 11. 78 Maglson
+          </li>
+        
+          <li style="left: 31px; top: 2765px; width: 776px; height: 35px;"
+            class="column"
+            title="LUDLAM HENRY,commission merchant,151 1* rent, 11. 77 E. 18th" >
+            LUDLAM HENRY,commission merchant,151 1* rent,
+          </li>
+        
+          <li style="left: 93px; top: 2801px; width: 195px; height: 25px;"
+            class=""
+            title="" >
+            11. 77 E. 18th
+          </li>
+        
+          <li style="left: 12px; top: 2828px; width: 796px; height: 38px;"
+            class="column"
+            title=", Ludlam Isaac T. city surveyer, 8 J ames, h. 281 E. Broadway" >
+            , Ludlam Isaac T. city surveyer, 8 J ames, h. 281 E.
+          </li>
+        
+          <li style="left: 93px; top: 2865px; width: 154px; height: 31px;"
+            class=""
+            title="" >
+            Broadway
+          </li>
+        
+          <li style="left: 33px; top: 2904px; width: 4px; height: 7px;"
+            class="column"
+            title="( 19 ," >
+            (
+          </li>
+        
+          <li style="left: 385px; top: 2914px; width: 264px; height: 35px;"
+            class=""
+            title="" >
+            19 ,
+          </li>
+        
+          <li style="left: 787px; top: 112px; width: 71px; height: 35px;"
+            class=""
+            title="" >
+            309
+          </li>
+        
+          <li style="left: 1134px; top: 85px; width: 132px; height: 62px;"
+            class=""
+            title="" >
+            LUK'
+          </li>
+        
+          <li style="left: 834px; top: 182px; width: 605px; height: 33px;"
+            class="column"
+            title="Ludlam John, builder, 13 P611, 11. 36 Pitt" >
+            Ludlam John, builder, 13 P611, 11. 36 Pitt
+          </li>
+        
+          <li style="left: 833px; top: 214px; width: 775px; height: 31px;"
+            class="column"
+            title="Ludlam Joseph, captain, 84 Madison , . ." >
+            Ludlam Joseph, captain, 84 Madison , . .
+          </li>
+        
+          <li style="left: 833px; top: 246px; width: 777px; height: 33px;"
+            class="column"
+            title="Ludlam William,grocer,124 Beekman,h.70 Seventh" >
+            Ludlam William,grocer,124 Beekman,h.70 Seventh
+          </li>
+        
+          <li style="left: 833px; top: 278px; width: 778px; height: 34px;"
+            class="column"
+            title="Ludlam W. & A. B. grocers, 124 Beekman, h. 70 Seventh" >
+            Ludlam W. & A. B. grocers, 124 Beekman, h. 70
+          </li>
+        
+          <li style="left: 897px; top: 309px; width: 119px; height: 25px;"
+            class=""
+            title="" >
+            Seventh
+          </li>
+        
+          <li style="left: 834px; top: 340px; width: 776px; height: 37px;"
+            class="column"
+            title="LUDLAM & LEGGETT, commission merchants, 36 Front" >
+            LUDLAM & LEGGETT, commission merchants,
+          </li>
+        
+          <li style="left: 897px; top: 374px; width: 126px; height: 24px;"
+            class=""
+            title="" >
+            36 Front
+          </li>
+        
+          <li style="left: 834px; top: 403px; width: 546px; height: 34px;"
+            class="column"
+            title="Ludlow Charles D. pilot, 52 Forsyth" >
+            Ludlow Charles D. pilot, 52 Forsyth
+          </li>
+        
+          <li style="left: 835px; top: 436px; width: 686px; height: 34px;"
+            class="column"
+            title="Ludlow Edward G. physician, 759 Broadway" >
+            Ludlow Edward G. physician, 759 Broadway
+          </li>
+        
+          <li style="left: 834px; top: 468px; width: 767px; height: 31px;"
+            class="column"
+            title="Ludlow Edward, surveyor, 8 James, 11. 78 Madison" >
+            Ludlow Edward, surveyor, 8 James, 11. 78 Madison
+          </li>
+        
+          <li style="left: 834px; top: 498px; width: 530px; height: 34px;"
+            class="column"
+            title="Ludlow Edwin, clerk, 20 Amity pl" >
+            Ludlow Edwin, clerk, 20 Amity pl
+          </li>
+        
+          <li style="left: 834px; top: 531px; width: 682px; height: 31px;"
+            class="column"
+            title="Ludlow Elizabeth, widow of Peter, 387 Sixth" >
+            Ludlow Elizabeth, widow of Peter, 387 Sixth
+          </li>
+        
+          <li style="left: 835px; top: 563px; width: 540px; height: 33px;"
+            class="column"
+            title="Ludlow Ezra, builder, 20 Amity pl" >
+            Ludlow Ezra, builder, 20 Amity pl
+          </li>
+        
+          <li style="left: 834px; top: 594px; width: 731px; height: 35px;"
+            class="column"
+            title="Ludlo'w Ezrajr. clerk, 19 South, 11. 20 Amity p1" >
+            Ludlo'w Ezrajr. clerk, 19 South, 11. 20 Amity p1
+          </li>
+        
+          <li style="left: 834px; top: 628px; width: 485px; height: 30px;"
+            class="column"
+            title="Ludlow James, agent, 470 West" >
+            Ludlow James, agent, 470 West
+          </li>
+        
+          <li style="left: 834px; top: 659px; width: 785px; height: 29px;"
+            class="column"
+            title="Ludlow James, 90 Prince 1" >
+            Ludlow James, 90 Prince 1
+          </li>
+        
+          <li style="left: 833px; top: 691px; width: 777px; height: 34px;"
+            class="column"
+            title="Ludlow J ames, commission merchant, 12 Old slip, h. Long Island" >
+            Ludlow J ames, commission merchant, 12 Old slip,
+          </li>
+        
+          <li style="left: 896px; top: 722px; width: 223px; height: 32px;"
+            class=""
+            title="" >
+            h. Long Island
+          </li>
+        
+          <li style="left: 833px; top: 754px; width: 675px; height: 32px;"
+            class="column"
+            title="Ludlow Mary, widow of Robert, 16 W. 19th" >
+            Ludlow Mary, widow of Robert, 16 W. 19th
+          </li>
+        
+          <li style="left: 834px; top: 786px; width: 715px; height: 31px;"
+            class="column"
+            title="Ludlow Richard, porterhouse, Av. 2 c. E. 26th." >
+            Ludlow Richard, porterhouse, Av. 2 c. E. 26th.
+          </li>
+        
+          <li style="left: 834px; top: 818px; width: 439px; height: 26px;"
+            class="column"
+            title="Ludlow Robert H. 211 Tenth" >
+            Ludlow Robert H. 211 Tenth
+          </li>
+        
+          <li style="left: 833px; top: 850px; width: 778px; height: 33px;"
+            class="column"
+            title="Ludlow Robert M. bookkeeper, 7 Battery pl. 11. 37 W. 17th" >
+            Ludlow Robert M. bookkeeper, 7 Battery pl. 11. 37
+          </li>
+        
+          <li style="left: 897px; top: 883px; width: 117px; height: 24px;"
+            class=""
+            title="" >
+            W. 17th
+          </li>
+        
+          <li style="left: 833px; top: 914px; width: 525px; height: 31px;"
+            class="column"
+            title="Ludlum (refused) 564 Greenwich" >
+            Ludlum (refused) 564 Greenwich
+          </li>
+        
+          <li style="left: 834px; top: 946px; width: 779px; height: 33px;"
+            class="column"
+            title="Ludlum Abraham, grocer, 124 Beekman, h. 32 Jefferson" >
+            Ludlum Abraham, grocer, 124 Beekman, h. 32 Jef-
+          </li>
+        
+          <li style="left: 897px; top: 978px; width: 92px; height: 25px;"
+            class=""
+            title="" >
+            ferson
+          </li>
+        
+          <li style="left: 833px; top: 1010px; width: 764px; height: 33px;"
+            class="column"
+            title="Ludlum Catharine. Widow of Peter W. 2 Minetta I" >
+            Ludlum Catharine. Widow of Peter W. 2 Minetta I
+          </li>
+        
+          <li style="left: 833px; top: 1042px; width: 516px; height: 30px;"
+            class="column"
+            title="Ludlum Charles, clerk, 8 (109er" >
+            Ludlum Charles, clerk, 8 (109er
+          </li>
+        
+          <li style="left: 833px; top: 1074px; width: 541px; height: 33px;"
+            class="column"
+            title="Ludlum George T. stables, 16 Av. 4" >
+            Ludlum George T. stables, 16 Av. 4
+          </li>
+        
+          <li style="left: 833px; top: 1105px; width: 645px; height: 33px;"
+            class="column"
+            title="Ludlum Henry M. jr. Silversmith, 30 Fifth" >
+            Ludlum Henry M. jr. Silversmith, 30 Fifth
+          </li>
+        
+          <li style="left: 834px; top: 1138px; width: 684px; height: 30px;"
+            class="column"
+            title="Ludlum James A. stables, 16 4v. 4, h. 6 First" >
+            Ludlum James A. stables, 16 4v. 4, h. 6 First
+          </li>
+        
+          <li style="left: 833px; top: 1169px; width: 779px; height: 32px;"
+            class="column"
+            title="Ludlum Jesse H. hosemkr. 53 Greene,h.124 Delaney" >
+            Ludlum Jesse H. hosemkr. 53 Greene,h.124 Delaney
+          </li>
+        
+          <li style="left: 834px; top: 1202px; width: 799px; height: 30px;"
+            class="column"
+            title="Ludlum Nicholas, late hardware, 20 Mercer. h. 7 ' E. 17th 1" >
+            Ludlum Nicholas, late hardware, 20 Mercer. h. 7 '
+          </li>
+        
+          <li style="left: 896px; top: 1235px; width: 340px; height: 23px;"
+            class=""
+            title="" >
+            E. 17th 1
+          </li>
+        
+          <li style="left: 834px; top: 1265px; width: 776px; height: 33px;"
+            class="column"
+            title="Ludlum Nicholas S. drygoods, 283 Greenwich, h. 283 Greenwich ," >
+            Ludlum Nicholas S. drygoods, 283 Greenwich, h.
+          </li>
+        
+          <li style="left: 897px; top: 1298px; width: 410px; height: 24px;"
+            class=""
+            title="" >
+            283 Greenwich ,
+          </li>
+        
+          <li style="left: 834px; top: 1329px; width: 576px; height: 30px;"
+            class="column"
+            title="Ludlum William, clerk, h. 88 Monroe" >
+            Ludlum William, clerk, h. 88 Monroe
+          </li>
+        
+          <li style="left: 834px; top: 1361px; width: 778px; height: 33px;"
+            class="column"
+            title="Ludlum William H. carriagemaker, E. 19th n. Av. 3, h. E. 19th 11. Av. 3" >
+            Ludlum William H. carriagemaker, E. 19th n. Av.
+          </li>
+        
+          <li style="left: 897px; top: 1394px; width: 307px; height: 28px;"
+            class=""
+            title="" >
+            3, h. E. 19th 11. Av. 3
+          </li>
+        
+          <li style="left: 834px; top: 1426px; width: 768px; height: 32px;"
+            class="column"
+            title="Ludlum & Smith, carriagcmakers, E. 19th n. AV. 3" >
+            Ludlum & Smith, carriagcmakers, E. 19th n. AV. 3
+          </li>
+        
+          <li style="left: 835px; top: 1454px; width: 760px; height: 33px;"
+            class="column"
+            title="Ludovici L. broker, 93 Wall I" >
+            Ludovici L. broker, 93 Wall I
+          </li>
+        
+          <li style="left: 835px; top: 1490px; width: 659px; height: 31px;"
+            class="column"
+            title="Ludwick Henry S. machinist, h. 6 Bethune" >
+            Ludwick Henry S. machinist, h. 6 Bethune
+          </li>
+        
+          <li style="left: 834px; top: 1521px; width: 774px; height: 34px;"
+            class="column"
+            title="Ludwick Solomon. varnisher, 6 Spring and. grocer, 58 Norfolk, h. 171 Eldridge" >
+            Ludwick Solomon. varnisher, 6 Spring and. grocer,
+          </li>
+        
+          <li style="left: 898px; top: 1553px; width: 416px; height: 34px;"
+            class=""
+            title="" >
+            58 Norfolk, h. 171 Eldridge
+          </li>
+        
+          <li style="left: 835px; top: 1585px; width: 530px; height: 33px;"
+            class="column"
+            title="Ludwig Francis, carman, 84 Ridge" >
+            Ludwig Francis, carman, 84 Ridge
+          </li>
+        
+          <li style="left: 836px; top: 1617px; width: 697px; height: 32px;"
+            class="column"
+            title="Ludwig Henry, printer, 70 Vesey, h. 174 Mott" >
+            Ludwig Henry, printer, 70 Vesey, h. 174 Mott
+          </li>
+        
+          <li style="left: 835px; top: 1649px; width: 778px; height: 33px;"
+            class="column"
+            title="Ludwi Happe, doctor of medicine, surgery & mi wifery, 2 Oliver" >
+            Ludwi Happe, doctor of medicine, surgery &
+          </li>
+        
+          <li style="left: 899px; top: 1680px; width: 302px; height: 32px;"
+            class=""
+            title="" >
+            mi wifery, 2 Oliver
+          </li>
+        
+          <li style="left: 836px; top: 1712px; width: 567px; height: 32px;"
+            class="column"
+            title="Ludwig Philip, segarmaker, 25 AV. 0" >
+            Ludwig Philip, segarmaker, 25 AV. 0
+          </li>
+        
+          <li style="left: 836px; top: 1744px; width: 616px; height: 31px;"
+            class="column"
+            title="Ludwig William, bootmaker, 140 Prince" >
+            Ludwig William, bootmaker, 140 Prince
+          </li>
+        
+          <li style="left: 826px; top: 1776px; width: 776px; height: 33px;"
+            class="column"
+            title="'LUDWIG H. & Co. printers, 70 Vesey, after Nov lst 53 Vesey" >
+            'LUDWIG H. & Co. printers, 70 Vesey, after Nov
+          </li>
+        
+          <li style="left: 900px; top: 1809px; width: 186px; height: 31px;"
+            class=""
+            title="" >
+            lst 53 Vesey
+          </li>
+        
+          <li style="left: 836px; top: 1840px; width: 670px; height: 30px;"
+            class="column"
+            title="Lueke Johanna, dressmakex h. 294 Division" >
+            Lueke Johanna, dressmakex h. 294 Division
+          </li>
+        
+          <li style="left: 836px; top: 1872px; width: 622px; height: 34px;"
+            class="column"
+            title="Luers Henry, flour, 94 Barclay, h. 46 Dey" >
+            Luers Henry, flour, 94 Barclay, h. 46 Dey
+          </li>
+        
+          <li style="left: 836px; top: 1904px; width: 649px; height: 33px;"
+            class="column"
+            title="Luers & J urgens, fiour, 94 Barclay -" >
+            Luers & J urgens, fiour, 94 Barclay -
+          </li>
+        
+          <li style="left: 836px; top: 1935px; width: 785px; height: 32px;"
+            class="column"
+            title="Luerssen Bohlke, liquors, 80 Duane, h. 55 Elm ." >
+            Luerssen Bohlke, liquors, 80 Duane, h. 55 Elm .
+          </li>
+        
+          <li style="left: 835px; top: 1968px; width: 775px; height: 31px;"
+            class="column"
+            title="Luerssen Garret, grocer, 37 Beekman & 794 Greenwich, h. 794 Greenwich" >
+            Luerssen Garret, grocer, 37 Beekman & 794 Green-
+          </li>
+        
+          <li style="left: 899px; top: 1999px; width: 362px; height: 30px;"
+            class=""
+            title="" >
+            wich, h. 794 Greenwich
+          </li>
+        
+          <li style="left: 836px; top: 2030px; width: 814px; height: 32px;"
+            class="column"
+            title="Lufberry William C. clerk, 59 Maiden 1a. 11. 9 Av. 6 9" >
+            Lufberry William C. clerk, 59 Maiden 1a. 11. 9 Av. 6 9
+          </li>
+        
+          <li style="left: 836px; top: 2063px; width: 822px; height: 31px;"
+            class="column"
+            title="Luff Abigail, Widow of John N. 233 Tenth 3" >
+            Luff Abigail, Widow of John N. 233 Tenth 3
+          </li>
+        
+          <li style="left: 836px; top: 2094px; width: 657px; height: 32px;"
+            class="column"
+            title="Luff Betsy, widow of Martin, 133 Hester ." >
+            Luff Betsy, widow of Martin, 133 Hester .
+          </li>
+        
+          <li style="left: 836px; top: 2126px; width: 774px; height: 33px;"
+            class="column"
+            title="Luif George, commission merchant, 52 W'ater, 11. Jersey city ' 1" >
+            Luif George, commission merchant, 52 W'ater, 11.
+          </li>
+        
+          <li style="left: 898px; top: 2159px; width: 533px; height: 31px;"
+            class=""
+            title="" >
+            Jersey city ' 1
+          </li>
+        
+          <li style="left: 836px; top: 2190px; width: 717px; height: 33px;"
+            class="column"
+            title="Luff George W. carver, 105 Elm, 11.660 Fourth" >
+            Luff George W. carver, 105 Elm, 11.660 Fourth
+          </li>
+        
+          <li style="left: 835px; top: 2222px; width: 659px; height: 30px;"
+            class="column"
+            title="Luff John V. carver, 105 Elm, h. 27 Suffolk" >
+            Luff John V. carver, 105 Elm, h. 27 Suffolk
+          </li>
+        
+          <li style="left: 835px; top: 2254px; width: 749px; height: 33px;"
+            class="column"
+            title="Luff Martin H. lawyer. 170 Broadway, 11. Harlem" >
+            Luff Martin H. lawyer. 170 Broadway, 11. Harlem
+          </li>
+        
+          <li style="left: 835px; top: 2285px; width: 553px; height: 32px;"
+            class="column"
+            title="Luff Philip, butcher, 11. 214 Seventh" >
+            Luff Philip, butcher, 11. 214 Seventh
+          </li>
+        
+          <li style="left: 836px; top: 2317px; width: 542px; height: 31px;"
+            class="column"
+            title="Luff J. V. & G. W. garvers, 105 Elm" >
+            Luff J. V. & G. W. garvers, 105 Elm
+          </li>
+        
+          <li style="left: 836px; top: 2350px; width: 756px; height: 32px;"
+            class="column"
+            title="Lugar George C. painter, 94 Houston, h. 365 Sixth" >
+            Lugar George C. painter, 94 Houston, h. 365 Sixth
+          </li>
+        
+          <li style="left: 836px; top: 2382px; width: 520px; height: 31px;"
+            class="column"
+            title="Lugar Henry H. mason, 49 Suffolk" >
+            Lugar Henry H. mason, 49 Suffolk
+          </li>
+        
+          <li style="left: 835px; top: 2413px; width: 772px; height: 33px;"
+            class="column"
+            title="Lugar Jeremiah, G. painter, 94 Houston, 11. 111 Cannon" >
+            Lugar Jeremiah, G. painter, 94 Houston, 11. 111
+          </li>
+        
+          <li style="left: 897px; top: 2446px; width: 112px; height: 23px;"
+            class=""
+            title="" >
+            Cannon
+          </li>
+        
+          <li style="left: 835px; top: 2476px; width: 648px; height: 33px;"
+            class="column"
+            title="Lugar Rodney P. shipcarpenter, 321 Third" >
+            Lugar Rodney P. shipcarpenter, 321 Third
+          </li>
+        
+          <li style="left: 835px; top: 2508px; width: 774px; height: 32px;"
+            class="column"
+            title="Lugar G. C. & J. G. painters, 42 Av. D & 94 Houston" >
+            Lugar G. C. & J. G. painters, 42 Av. D & 94 Houston
+          </li>
+        
+          <li style="left: 836px; top: 2540px; width: 773px; height: 33px;"
+            class="column"
+            title="Lurhing J ohn, grocer, 82 Roosevelt, h. 82 Roosevelt" >
+            Lurhing J ohn, grocer, 82 Roosevelt, h. 82 Roosevelt
+          </li>
+        
+          <li style="left: 835px; top: 2572px; width: 741px; height: 32px;"
+            class="column"
+            title="Luhrs Bernard, grocer, 22 Thomas, h. 22 Thomas" >
+            Luhrs Bernard, grocer, 22 Thomas, h. 22 Thomas
+          </li>
+        
+          <li style="left: 835px; top: 2604px; width: 631px; height: 33px;"
+            class="column"
+            title="Luhrs Henry, grocer, 76 Av. 6, h.76 Av. 6" >
+            Luhrs Henry, grocer, 76 Av. 6, h.76 Av. 6
+          </li>
+        
+          <li style="left: 836px; top: 2635px; width: 773px; height: 34px;"
+            class="column"
+            title="Luhrs John H.grocer,57 Frankfort,h.10 Vandewater" >
+            Luhrs John H.grocer,57 Frankfort,h.10 Vandewater
+          </li>
+        
+          <li style="left: 837px; top: 2667px; width: 770px; height: 34px;"
+            class="column"
+            title="Lukas George, grocer, 195 Delaney, h. 195 Delaney" >
+            Lukas George, grocer, 195 Delaney, h. 195 Delaney
+          </li>
+        
+          <li style="left: 836px; top: 2699px; width: 771px; height: 32px;"
+            class="column"
+            title="Luke Andrew, president of the old board of measurers, 29 Coenties 81. h. 62 E. 22d" >
+            Luke Andrew, president of the old board of meas-
+          </li>
+        
+          <li style="left: 898px; top: 2733px; width: 488px; height: 28px;"
+            class=""
+            title="" >
+            urers, 29 Coenties 81. h. 62 E. 22d
+          </li>
+        
+          <li style="left: 836px; top: 2761px; width: 769px; height: 35px;"
+            class="column"
+            title="Luke John H. grocer, 318 Broadway & 52 Elm, h. 318 Broadway , . '" >
+            Luke John H. grocer, 318 Broadway & 52 Elm, h.
+          </li>
+        
+          <li style="left: 900px; top: 2794px; width: 520px; height: 33px;"
+            class=""
+            title="" >
+            318 Broadway , . '
+          </li>
+        
+          <li style="left: 837px; top: 2825px; width: 587px; height: 33px;"
+            class="column"
+            title="Luke Josephine, dressmaker, 116 AV. 4" >
+            Luke Josephine, dressmaker, 116 AV. 4
+          </li>
+        
+          <li style="left: 837px; top: 2858px; width: 323px; height: 31px;"
+            class="column"
+            title="Luke Peter, 116 Av. 4" >
+            Luke Peter, 116 Av. 4
+          </li>
+        
+        </ol>
+
+        <svg class="connections">
+          <defs>
+            <marker id="arrow" markerWidth="20" markerHeight="20" refx="9" refy="3" orient="auto" markerUnits="strokeWidth" viewBox="0 0 20 20">
+              <path d="M0,0 L0,6 L9,3 z" fill="#f00" />
+            </marker>
+          </defs>
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="25" y1="367"
+                x2="86" y2="361"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+              <line x1="25" y1="409"
+                x2="88" y2="422.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="25" y1="1144"
+                x2="91" y2="1155.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="0" y1="2004"
+                x2="90" y2="2015.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="30" y1="2546"
+                x2="92" y2="2558.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="31" y1="2800"
+                x2="93" y2="2813.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+              <line x1="12" y1="2866"
+                x2="93" y2="2880.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+              <line x1="33" y1="2911"
+                x2="385" y2="2931.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="833" y1="312"
+                x2="897" y2="321.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+              <line x1="834" y1="377"
+                x2="897" y2="386"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="833" y1="725"
+                x2="896" y2="738"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="833" y1="883"
+                x2="897" y2="895"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+              <line x1="834" y1="979"
+                x2="897" y2="990.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="834" y1="1232"
+                x2="896" y2="1246.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+              <line x1="834" y1="1298"
+                x2="897" y2="1310"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+              <line x1="834" y1="1394"
+                x2="897" y2="1408"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="834" y1="1555"
+                x2="898" y2="1570"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="835" y1="1682"
+                x2="899" y2="1696"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="826" y1="1809"
+                x2="900" y2="1824.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="835" y1="1999"
+                x2="899" y2="2014"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="836" y1="2159"
+                x2="898" y2="2174.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="835" y1="2446"
+                x2="897" y2="2457.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <line x1="836" y1="2731"
+                x2="898" y2="2747"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+              <line x1="836" y1="2796"
+                x2="900" y2="2810.5"
+                stroke="black" stroke-width="2" marker-end="url(#arrow)"/>
+            
+          
+            
+          
+            
+          
+            
+          
+        </svg>
+      </div>
+    </li>
+  
+  </ol>
+  <script>
+    var columnsHidden = false
+    var linesHidden = false
+    var connectionsHidden = false
+
+    function toggleClass (element, cls, toggled) {
+      if (toggled) {
+        element.classList.add(cls)
+      } else {
+        element.classList.remove(cls)
+      }
+    }
+
+    function toggleClassAll (list, cls, toggled) {
+      for (var element of list) {
+        toggleClass(element, cls, toggled)
+      }
+    }
+
+    document.addEventListener('keypress', function (event) {
+      if (event.keyCode === 98) {
+        linesHidden = !linesHidden
+        var lines = document.querySelectorAll('.lines')
+        toggleClassAll(lines, 'hidden', linesHidden)
+      } else if (event.keyCode === 99) {
+        columnsHidden = !columnsHidden
+        var columns = document.querySelectorAll('.columns')
+        toggleClassAll(columns, 'hidden', columnsHidden)
+      } else if (event.keyCode === 108) {
+        connectionsHidden = !connectionsHidden
+        var connections = document.querySelectorAll('.connections')
+        toggleClassAll(connections, 'hidden', connectionsHidden)
+      }
+    })
+
+    // TODO:
+    // Use image.onload to get image width + height
+    // https://stackoverflow.com/questions/15989680/auto-width-and-height-for-svg-image
+  </script>
+</body>
+</html>
