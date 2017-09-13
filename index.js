@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const R = require('ramda')
 const cheerio = require('cheerio')
 const stats = require('simple-statistics')
