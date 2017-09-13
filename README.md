@@ -12,7 +12,7 @@ First, hocr-detect-columns uses [Cheerio](https://github.com/cheeriojs/cheerio) 
 
 Per page, the X positions of the bounding boxes of all OCR lines are clustered, using [Simple Statistics](https://simplestatistics.org/). A page with `n` columns should have many lines with bounding boxes on or around `n` different X values. If clustering finds `n` clusters containing most of the OCR lines, we can expect the page has `n` columns.
 
-To connect indented lines with the previous line they belong to, hocr-detect-columns uses a spatial index and tries to find, for each line which doesn't belong to a column, the closest line in the upper-left direction. The algorithms we need are implemented by [RBush](https://github.com/mourner/rbush) (spatial index) and [rbush-knn](https://github.com/mourner/rbush-knn) (nearest neighbor search). You can read more about on spatial search algorithms for JavaScript on [Mapbox's blog](https://blog.mapbox.com/a-dive-into-spatial-search-algorithms-ebd0c5e39d2a).
+To connect indented lines with the previous line they belong to, hocr-detect-columns uses a spatial index and tries to find, for each line which doesn't belong to a column, the closest line in the upper-left direction. The algorithms we need are implemented by [RBush](https://github.com/mourner/rbush) (spatial index) and [rbush-knn](https://github.com/mourner/rbush-knn) (nearest neighbor search). You can read more about spatial search algorithms for JavaScript on [Mapbox's blog](https://blog.mapbox.com/a-dive-into-spatial-search-algorithms-ebd0c5e39d2a).
 
 ## Installation & Usage
 
