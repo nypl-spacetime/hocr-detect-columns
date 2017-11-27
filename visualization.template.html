@@ -116,13 +116,13 @@
   <ol>
   {{~it.pages :page}}
     <li>
-      <h2><a name="{{= page.number + 1 }}">Page {{= page.number + 1 }}</a></h2>
-      <div class="page">
-        <img src="{{= page.properties.image || page.properties.file || '' }}" />
+      <h2 id="{{= page.number + 1 }}">Page {{= page.number + 1 }}</h2>
+      <div class="page" style="width: {{= page.properties.bbox[2] }}px; height: {{= page.properties.bbox[3] }}px;">
+        <img alt="Page {{= page.number + 1 }}" src="{{= page.properties.image || page.properties.file || '' }}" />
         <svg class="columns">
         {{~page.columns :column}}
           <rect x="{{= column - it.config.characterWidth }}" y="0" width="{{=2 * it.config.characterWidth}}"
-            height="100%" />
+            height="{{= page.properties.bbox[3] }}" />
         {{~}}
         </svg>
 
@@ -130,8 +130,8 @@
         {{~page.lines :line}}
           <li style="left: {{= line.properties.bbox[0] }}px; top: {{= line.properties.bbox[1] }}px; width: {{= line.properties.bbox[2] - line.properties.bbox[0] }}px; height: {{= line.properties.bbox[3] - line.properties.bbox[1] }}px;"
             class="{{= line.columnIndex !== undefined ? 'column' : '' }}"
-            title="{{= line.completeText ? line.completeText : '' }}" >
-            {{= line.text }}
+            title="{{! line.completeText ? line.completeText : '' }}" >
+            {{! line.text }}
           </li>
         {{~}}
         </ol>
@@ -174,24 +174,20 @@
     }
 
     document.addEventListener('keypress', function (event) {
-      if (event.keyCode === 98) {
+      if (event.key === 'b') {
         linesHidden = !linesHidden
         var lines = document.querySelectorAll('.lines')
         toggleClassAll(lines, 'hidden', linesHidden)
-      } else if (event.keyCode === 99) {
+      } else if (event.key === 'c') {
         columnsHidden = !columnsHidden
         var columns = document.querySelectorAll('.columns')
         toggleClassAll(columns, 'hidden', columnsHidden)
-      } else if (event.keyCode === 108) {
+      } else if (event.key === 'l') {
         connectionsHidden = !connectionsHidden
         var connections = document.querySelectorAll('.connections')
         toggleClassAll(connections, 'hidden', connectionsHidden)
       }
     })
-
-    // TODO:
-    // Use image.onload to get image width + height
-    // https://stackoverflow.com/questions/15989680/auto-width-and-height-for-svg-image
   </script>
 </body>
 </html>

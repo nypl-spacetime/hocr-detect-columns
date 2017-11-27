@@ -81,11 +81,8 @@ function detectColumns (config, page) {
     .ckmeans(xs, clusterCount)
     .sort((a, b) => b.length - a.length)
 
-  // columns variable will contain the x coordinates of the columns
-  // Find columnCount columns, for each cluster, compute mode of x coordinates
-  const columns = Array
-    .from(Array(columnCount), (x, i) => i)
-    .map((i) => clusters[i])
+  const columns = clusters
+    .slice(0, columnCount)
     .map(stats.mode)
 
   const characterWidth = config.characterWidth
@@ -216,6 +213,31 @@ function constructCompleteLines (page) {
   })
 }
 
+function addBoundingBox (page) {
+  if (!page.properties || !page.properties.bbox) {
+    const maxCoordinate = (index) => page.lines
+      .reduce((acc, line) => {
+        let coordinate = 0
+        if (line.properties && line.properties.bbox) {
+          coordinate = line.properties.bbox[index]
+        }
+
+        return Math.max(acc, coordinate)
+      }, 0)
+
+    const xMax = maxCoordinate(2)
+    const yMax = maxCoordinate(3)
+
+    const bbox = [0, 0, xMax, yMax]
+
+    page.properties = Object.assign({}, page.properties, {
+      bbox
+    })
+  }
+
+  return page
+}
+
 function detectColumnsAndIndentation (hocr, config) {
   config = mergeConfig(config)
 
@@ -224,11 +246,13 @@ function detectColumnsAndIndentation (hocr, config) {
     .map(R.curry(computeLinesPerColumn)(config))
     .map(connectIndentedLines)
     .map(constructCompleteLines)
+    .map(addBoundingBox)
 }
 
 if (require.main === module) {
   const chalk = require('chalk')
   const fs = require('fs')
+  const path = require('path')
   const H = require('highland')
   const minimist = require('minimist')
 
@@ -285,7 +309,7 @@ if (require.main === module) {
   }
 
   if (argv.mode === 'log') {
-    function logPage (page) {
+    const logPage = (page) => {
       console.log(`Page: ${page.number}`)
       const properties = R.toPairs(page.properties).map((pair) => `  ${pair[0]}: ${pair[1]}`).join('\n')
       console.log(chalk.gray(properties))
@@ -334,7 +358,7 @@ if (require.main === module) {
       .pipe(output)
   } else if (argv.mode === 'html') {
     const doT = require('dot')
-    const template = fs.readFileSync('visualization.template.html', 'utf8')
+    const template = fs.readFileSync(path.join(__dirname, 'visualization.template.html'), 'utf8')
     doT.templateSettings.strip = false
     const compiledTemplate = doT.template(template)
     const html = compiledTemplate(data)

@@ -1,6 +1,6 @@
 {
   "name": "hocr-detect-columns",
-  "version": "0.2.1",
+  "version": "0.3.0",
   "description": "Find columns and connects indented lines from hOCR files",
   "main": "index.js",
   "bin": {
